@@ -52,8 +52,8 @@ public class Utils {
         SharedPreferences pref = context.getSharedPreferences("MyPref", Context.MODE_PRIVATE); // 0 - for private mode
         SharedPreferences.Editor editor = pref.edit();
         return pref.getBoolean(key, false);
-
     }
+
 
     public static void clearpref(Context context) {
         SharedPreferences pref = context.getSharedPreferences("MyPref", Context.MODE_PRIVATE);

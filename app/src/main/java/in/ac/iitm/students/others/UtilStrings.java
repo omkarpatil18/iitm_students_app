@@ -26,4 +26,14 @@ public class UtilStrings {
     public static String elec = "elec";
     public static String tfe = "tfe";
 
+    public static String COURSES_COUNT = "crscnt";
+    public static String COURSE_NUM = "crsn";
+    public static String COURSE_SLOT = "slot";
+    public static String COURSE_ID = "crsid";
+    public static String COURSE_DAYS = "crsdays";
+    public static String BUNKS_TOTAL = "bunktot";
+    public static String BUNKS_DONE = "bunkdone";
+
+    //Format: COURSE_NUM+int+SLOT = slot[i] and so on..
+
 }

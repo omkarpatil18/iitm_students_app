@@ -8,8 +8,10 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
 
 import in.ac.iitm.students.R;
+import in.ac.iitm.students.adapters.CalendarPagerAdapter;
 import in.ac.iitm.students.fragments.CalendarFragment;
 
 /**
@@ -18,13 +20,31 @@ import in.ac.iitm.students.fragments.CalendarFragment;
 
 public class CalendarDisplayActivity extends FragmentActivity {
 
+    ViewPager viewPager;
+    CalendarPagerAdapter calendarPagerAdapter;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_calendar);
-        String calendarUrl = getIntent().getStringExtra("calendar_url");
+
+        viewPager = (ViewPager)findViewById(R.id.viewPager);
+        calendarPagerAdapter = new CalendarPagerAdapter(getSupportFragmentManager());
+        viewPager.setAdapter(calendarPagerAdapter);
+
+        //String calendarUrl = getIntent().getStringExtra("calendar_url");
         //Toast.makeText(this, calendarUrl, Toast.LENGTH_SHORT).show();
-        callFragment(calendarUrl);
+        //callFragment(calendarUrl);
+    }
+
+    public ViewPager returnpager()
+    {
+        return viewPager;
+    }
+
+    public CalendarPagerAdapter returnadapter()
+    {
+        return calendarPagerAdapter;
     }
 
     protected void callFragment(String url) {
@@ -47,6 +67,5 @@ public class CalendarDisplayActivity extends FragmentActivity {
                 getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
         return (networkInfo != null && networkInfo.isConnected());
-
     }
 }

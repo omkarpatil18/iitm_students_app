@@ -16,7 +16,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         android {
         defaultConfig {
         vectorDrawables.useSupportLibrary = true
@@ -24,13 +23,17 @@
         }
 
         <!-- [START fcm_default_icon] -->
-        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
-             See README(https://goo.gl/l4GJaQ) for more. -->
+        <!--
+             Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more.
+        -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@mipmap/ic_launcher" />
-        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
-             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorPrimaryDark" />
@@ -42,18 +45,19 @@
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
+
                 <action android:name="in.ac.iitm.students.activities.main.SplashActivity" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".activities.SubscriptionActivity"
             android:label="@string/title_activity_subscriptions"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".activities.LoginActivity"
             android:label="@string/app_name"
@@ -67,9 +71,7 @@
             <intent-filter>
                 <action android:name="in.ac.iitm.students.activities.main.HomeActivity" />
             </intent-filter>
-
         </activity>
-
         <activity
             android:name=".activities.main.StudentSearchActivity"
             android:label="@string/title_activity_student_search"
@@ -88,7 +90,6 @@
             <intent-filter>
                 <action android:name="in.ac.iitm.students.activities.main.EMLActivity" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".activities.main.T5EActivity"
@@ -98,7 +99,6 @@
             <intent-filter>
                 <action android:name="in.ac.iitm.students.activities.main.T5EActivity" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".activities.main.MessAndFacilitiesActivity"
@@ -143,15 +143,12 @@
         <activity
             android:name=".activities.CalendarDisplayActivity"
             android:label="@string/title_activity_calendar"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.EMLDetailsActivity"
             android:label="@string/title_activity_emldetails"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.EMLFeedbackActivity"
             android:label="@string/title_activity_emlfeedback"
@@ -187,8 +184,6 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-
-
         !--
         The API key for Google Maps-based APIs is defined as a string resource.
         (See the file "res/values/google_maps_api.xml").
@@ -207,7 +202,6 @@
             android:label="@string/title_activity_map"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.noAnimation">
-
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
