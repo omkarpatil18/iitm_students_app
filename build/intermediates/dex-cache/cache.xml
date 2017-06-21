@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/922d0610d8c241a8cf49ef2675b4a21005b553e8/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_c84d40d2745df0033e53e28e6d6ff885393e3d8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/5859863ee44657e7003c5c4c758f4a822dd8afc8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f9ff9430551c9e346d9ac46d624b1ba68cec7eb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/7e1b6149df50945b15f27ad2d17c11c4c908d244/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b78e88aded5df412c86bacb3d5b4a0056a6e1bff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/64e9a1e2fcff131f4dfdc9b9299bba34138192d7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f2cbeec61d783df2dbc14359eda68f8ddcb296f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/53f588efe77c461458eacc748bcbd7b06af05da6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb7467b7f019ace3fff8e21e1cf659ef3c0e2211/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/95465f772dc9d10e442e2a3f640dc7f7f2c188f3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_95975450eba28637bae91d10229540e3954ae5d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/e094fe6337b0eb4a8c5beae371fabd823eccf83c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6f57b76211a1d7b0c1f18873af59faad95664681">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_db2a28c57c08abe7a8faf3f9e9bf322415a93961/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/454f2dfe28ac4f98786cf906ace7b7ba0a10ae03/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_01f3aadcca8148ebb2418e6844084e0d0483aee4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/29068f1e971341f7aa0c7bee28a6c72ff93dfe8b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6a53e92e202cd8eb5177df66c7607eca2529e7ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/13177b4368486bbb82e5717896e7ee691fd6c96d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3b2ba548af911d95bf2e3f72f5b2e3fd87c82baa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/5bf57e85a0cd26c9bd6f92825257da6d00118569/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68328597defeb08bd03fc6eab0c7c5c9479a5bea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/922d0610d8c241a8cf49ef2675b4a21005b553e8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3abe005bafbc2cf46e28e01b15f97f56242b7ccb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f79805d18b8d3b70b3a17865247dcad8d5c844c7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_84d89af10e4966ea6c0a0f2696d5e5b1f371f65b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/6fe7a2424f30dbc7c5c5a799b6ddc1de34495f8b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e2e88bd352afef11b1612b059634aa1abe0a1b72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/134969f20807d21358af2e24d5778ff660942d1f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ceec752e731553d427ecd8716dd14c0cca74f85d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/11e21c9b690f37d1f997cc24bada93f5b11d9801/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cc9ac9845e55e7c104e610a398445133eb401cda/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/465153a5782e0f640d9898295461253929b21c4d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_db94935fc7487fd9f11055fcee8ca4c61c121dd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/32bbbb1ee24649be79d9df44afc639c229cdf650/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_075ee342986b0bdd517230bc71b77abd76208237/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/4be6c9ad93eb5e30fb238ecebc909bcd602b133c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aa82e236a2252f82c94840cf413006e2f9bbf431/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f249b25cd70f55dffbd734d1612b2ff2fa138f74/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_54e7a5482acd80394d650978a7d245e9a6cccdef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f27efa6e7f0be7fc6e66c36e02d6e3901533159d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8881735a27aeeefda5a58cefec161ec53c6efdae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/Desktop/students_app-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fa52e84315f5481a7b280475647af178e989026f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/5c71cded5eca4f127c657be7f82f62bbdaa3b360/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e1b7c29a86aa7145c7994018287f9cfa01cce03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/cb3f3e52609f86d7d39172d49b01fd816595c147/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb1a82880b8681eff4bd6016b7de6f3feacea7ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_65e8275af7a32297d83e71fc52f86370d561fe34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/723634b14a6f2f7453e38a4e19bf1a1cddd5aff7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8f2ed9bfeebb8e20f83d3eda343fc50e5f04f160/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/Desktop/studentsApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/harshitha/Desktop/studentsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_039a503935079557d30f7d037b04b206c58cb089/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/0fe61466e6be0a4fd11ff5dc4a1c8e0fa2330955/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b6959774595f4bf15ae3570dbc27618caab9aec8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/5bf57e85a0cd26c9bd6f92825257da6d00118569/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68328597defeb08bd03fc6eab0c7c5c9479a5bea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/df4ad619862b807413190b5657a0c9cd6f4bc6c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68804686d8227ebc0a39336aee3f5249ebde5efa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/0e3b83c1cac7a0a84486d1da3c553c7f2427a95a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3bee84fcb68feb81d93b8ae6feb4981db0e9b297/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/922d0610d8c241a8cf49ef2675b4a21005b553e8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3abe005bafbc2cf46e28e01b15f97f56242b7ccb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2d99cd76f0a76556a532d815fa72c0fc59b08ec0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca1a022253e335fbfdeacc6205aaaffd96506686/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/fb04d9252933570b07e04a0b23e82df243056e64/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e22695e71aa3cfa51a0953dd2d5a1d39adcb0b1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/698d5b1e82ceed351d5cff8c86cec7c58d4745b4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f126d8ff03cbadf24f99fa8f17c448c708294061/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/95465f772dc9d10e442e2a3f640dc7f7f2c188f3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_95975450eba28637bae91d10229540e3954ae5d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/89f8f5c1efe8f3fab5d7f462033f96dd78e329a0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_983ea51908cb802a4445dce90225dc774ea34a9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/46a741cbccbd6cefa72cf8658146e3f82dc1aa9f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c2e1c939667f539d0d894e81c7c6da5b5ecdf104/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2ba95c9626f2c443eefd9c27a7fec44313013f32/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_886021b9c57969aa0d14f2dc6596ffd8df0bdbeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/391de2c31a1474aebe0973415b921b14bd55743a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_81e8fc0508421bbf560117bbcf3479be9fd24991/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/50397ef6a277c3076b4ff5f123034a78848464c4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8af2c2b0a19c4d8ae47991a671f6a7f564179cac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f899b393667caab7bdb125691e68e325ef474d55/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4205e5944b5aa14cc28f91a6e4478db654d47b74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/fef3239e0ced97a458b260a41cd591569ae70776/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7afa2f8bf5491049dc280848fe9e6e1e3dd646a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/0a4d2ff07503eb5ac8cb45420ecb3f3f69a25744/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1f7a75ba43c401a57c21852ebf37c4c41721ae2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/d13a47b6375b309355383eba5520924036877f4a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bd876095772d5dcf7e8eda702a6d2af889b2bce4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/11e21c9b690f37d1f997cc24bada93f5b11d9801/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cc9ac9845e55e7c104e610a398445133eb401cda/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/afda7a96eb1867378de78366db3362b17cefc45c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_72ccce6f1e84c60d5fc55e53aac8f1b4e4d02ecc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f27efa6e7f0be7fc6e66c36e02d6e3901533159d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8881735a27aeeefda5a58cefec161ec53c6efdae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/9071981e6041e52247e4a14dc63913bf9bbd5fb3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ea20c4286991ecfeab0b95653c9a74dcb2de5320/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/5c71cded5eca4f127c657be7f82f62bbdaa3b360/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e1b7c29a86aa7145c7994018287f9cfa01cce03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/daec8b3c7dfda15eb43dcffafa14290000c3e98c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_470367c9ab88a5cb52322649a16c66c4ca2863e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/Desktop/studentsApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e006b08910825a0fcfe3101bd28f80ea4e747264">
+        <dex dex="/home/harshitha/Desktop/studentsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f2a5c5f0c7456090fbcd43dec54ba260de2f3e71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/98532d62b6b0ac67e72bf139ec9643a124567658/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8892a61650fcd03c0b9ac369f021cd74d903addb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/698d5b1e82ceed351d5cff8c86cec7c58d4745b4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f126d8ff03cbadf24f99fa8f17c448c708294061/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/9d13fb85242378f70ce1bc4c5f37a9e9138eb86d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec2ad02c7506ae98375fbe2ac8b12ea94ef9b4df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/29068f1e971341f7aa0c7bee28a6c72ff93dfe8b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6a53e92e202cd8eb5177df66c7607eca2529e7ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/e094fe6337b0eb4a8c5beae371fabd823eccf83c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6f57b76211a1d7b0c1f18873af59faad95664681">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_db2a28c57c08abe7a8faf3f9e9bf322415a93961/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/922d0610d8c241a8cf49ef2675b4a21005b553e8/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_c84d40d2745df0033e53e28e6d6ff885393e3d8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_450e69cd6cd89b9cd2d1c858d72f4305e49fec87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f249b25cd70f55dffbd734d1612b2ff2fa138f74/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_54e7a5482acd80394d650978a7d245e9a6cccdef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2bfc4325dada90aa48d573d348514c72e85692eb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f3a32f6c10c1caf89f7b2f006b1eecfc021a92e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/4be6c9ad93eb5e30fb238ecebc909bcd602b133c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aa82e236a2252f82c94840cf413006e2f9bbf431/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.1/1eb6690b0c629d7000c77a72df5e822fb974f521/jsoup-1.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1eb6690b0c629d7000c77a72df5e822fb974f521">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsoup-1.8.1_0ea92cffb759e92738feb351d71c411f77e87aea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f899b393667caab7bdb125691e68e325ef474d55/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4205e5944b5aa14cc28f91a6e4478db654d47b74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/71be62e603ca64a38067e7753e9b1e407dffdba4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66617f34417bc5ebdb383a087db24ff049aef232/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2e4488d60f1ef6dca2eeb841c32db30294b4c943/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_df0e2856ac92946da270b2eb71429f9f45bda44d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/723634b14a6f2f7453e38a4e19bf1a1cddd5aff7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8f2ed9bfeebb8e20f83d3eda343fc50e5f04f160/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/cb3f3e52609f86d7d39172d49b01fd816595c147/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb1a82880b8681eff4bd6016b7de6f3feacea7ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/c16ad3ab1ccfc4427047f9e085cc845380859327/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e13edb6c339276ff967988534894f635dcaf2863">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1b84d8a5d0acef52cfe4ced89f1e3bb70601a821/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/aa939995a59e97a1725a3d9a12ef96ada0f357f8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_33c48003194d938999a811fa41a02dcce839fb98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/391de2c31a1474aebe0973415b921b14bd55743a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_81e8fc0508421bbf560117bbcf3479be9fd24991/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/7e1b6149df50945b15f27ad2d17c11c4c908d244/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b78e88aded5df412c86bacb3d5b4a0056a6e1bff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/3392a26dd0b6e6cf1a6ee85584e819ee2bd3b6f4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_921fd86a5ee30972ff11699b63d18a7989091339/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/9550d1ca5d1c316bfe11afdd573e5c68f0f6dff1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_151c8c4c23818e878ba5438d93c133aa89082c11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/89f8f5c1efe8f3fab5d7f462033f96dd78e329a0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_983ea51908cb802a4445dce90225dc774ea34a9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/50397ef6a277c3076b4ff5f123034a78848464c4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8af2c2b0a19c4d8ae47991a671f6a7f564179cac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/d3965e09a78d9dc342362fa3f7c65e69f776352b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d261567e197ae15755ef98ed3adf4603261babea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/fef3239e0ced97a458b260a41cd591569ae70776/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7afa2f8bf5491049dc280848fe9e6e1e3dd646a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/98ac135a8baedb7b50d3676a7a98ddfcefbc2bda/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f2037ede3758c576353ab4cf9485651c737bd495/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/b44dc7c2c71591fdcbce3811b5fffafc49c56fd6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d87464af261ed15a419a4591965231c3554a7d83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/3392a26dd0b6e6cf1a6ee85584e819ee2bd3b6f4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_921fd86a5ee30972ff11699b63d18a7989091339/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/dcecb34830f1ec0282309554dcf44ae73c776ec9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d2e38b20322964c3f356d1c484069441b3c19d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/80a0f74858ffb7e14a34152bd45437446b195656/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a9de961273b5bb986f02af83d40c4659e6044b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/daec8b3c7dfda15eb43dcffafa14290000c3e98c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_470367c9ab88a5cb52322649a16c66c4ca2863e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_450e69cd6cd89b9cd2d1c858d72f4305e49fec87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/9071981e6041e52247e4a14dc63913bf9bbd5fb3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ea20c4286991ecfeab0b95653c9a74dcb2de5320/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/b21177c7cfb6b860c4acc8a73ac5f5e11aaa89ec/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bdcb9fd1fcc1e861d5ab4d6e5b7995cf7262feeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/88a60b13bbd039e4de2f25381f513962a44d134a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e0ca8f617c3d9ca66b799c018bcd5372fb896fd1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/98532d62b6b0ac67e72bf139ec9643a124567658/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8892a61650fcd03c0b9ac369f021cd74d903addb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/411ab1ff7fbdc639de95c44b0b37b0967e802487/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0943f06f99e19ecf99f7bf53c4a518728956226d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2bfc4325dada90aa48d573d348514c72e85692eb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f3a32f6c10c1caf89f7b2f006b1eecfc021a92e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f333fcc8caca5e6a4f05e0abae834d566f2b9af5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5515653f49bb4a0b342fffb03af2332f685e5236/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f8fd9bc325a1876f6d52ca588d8c462f1df6fbed/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_30cea0a60f091aaf146673be4c7d79e19800b949/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_02b6e3dbf9949abd03122e86239a3ea51e1f648a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.1/1eb6690b0c629d7000c77a72df5e822fb974f521/jsoup-1.8.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1eb6690b0c629d7000c77a72df5e822fb974f521">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsoup-1.8.1_0ea92cffb759e92738feb351d71c411f77e87aea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/bd0e45bc8b1e3f31fa94caef6f13fd9181e3d718/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e77b14887dd607a271e9b7c6624a6381c614da7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f8fd9bc325a1876f6d52ca588d8c462f1df6fbed/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_30cea0a60f091aaf146673be4c7d79e19800b949/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/98ac135a8baedb7b50d3676a7a98ddfcefbc2bda/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f2037ede3758c576353ab4cf9485651c737bd495/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/edf4450262b52f4b78bbf6cc4dd26f1eada9f6a3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_477ff76b3358dc89aaf78a4d5da9f6ad14ca90fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f333fcc8caca5e6a4f05e0abae834d566f2b9af5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5515653f49bb4a0b342fffb03af2332f685e5236/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/b21177c7cfb6b860c4acc8a73ac5f5e11aaa89ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bdcb9fd1fcc1e861d5ab4d6e5b7995cf7262feeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2e4488d60f1ef6dca2eeb841c32db30294b4c943/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_df0e2856ac92946da270b2eb71429f9f45bda44d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/587d6e64dc16ec5501711dcd422ddbb33fa3c29b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d29d58ef13fae36915965046235cf5fccb332ad4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/05e71172a852141eb7dc2b9fffcc3be0c1a9b5c5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_20138765c337e383b68ddd8acb3737b0058e0cc5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/9d13fb85242378f70ce1bc4c5f37a9e9138eb86d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec2ad02c7506ae98375fbe2ac8b12ea94ef9b4df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/c16ad3ab1ccfc4427047f9e085cc845380859327/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e13edb6c339276ff967988534894f635dcaf2863">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1b84d8a5d0acef52cfe4ced89f1e3bb70601a821/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/9550d1ca5d1c316bfe11afdd573e5c68f0f6dff1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_151c8c4c23818e878ba5438d93c133aa89082c11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/aa939995a59e97a1725a3d9a12ef96ada0f357f8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_33c48003194d938999a811fa41a02dcce839fb98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2df971fc172ea191f121dd2bed2a67810b18b0e8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_41e074b4364b5e9754a4221ba8534b81cde235d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/d3965e09a78d9dc342362fa3f7c65e69f776352b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d261567e197ae15755ef98ed3adf4603261babea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/71be62e603ca64a38067e7753e9b1e407dffdba4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66617f34417bc5ebdb383a087db24ff049aef232/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/16ebecf6846f5577f155c947971bde08736b218a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e05f06d5c6d6e052c183c64c2dcbc9dc8e6a0cd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/987775942ed85ba16c4f7af34b452b6cec21db84/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c5acae912b2c3812d1e2048a1e0f164163d41422/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/b44dc7c2c71591fdcbce3811b5fffafc49c56fd6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d87464af261ed15a419a4591965231c3554a7d83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/afda7a96eb1867378de78366db3362b17cefc45c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_72ccce6f1e84c60d5fc55e53aac8f1b4e4d02ecc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/64e9a1e2fcff131f4dfdc9b9299bba34138192d7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f2cbeec61d783df2dbc14359eda68f8ddcb296f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/80a0f74858ffb7e14a34152bd45437446b195656/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a9de961273b5bb986f02af83d40c4659e6044b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/465153a5782e0f640d9898295461253929b21c4d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_db94935fc7487fd9f11055fcee8ca4c61c121dd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/5859863ee44657e7003c5c4c758f4a822dd8afc8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f9ff9430551c9e346d9ac46d624b1ba68cec7eb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/13177b4368486bbb82e5717896e7ee691fd6c96d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3b2ba548af911d95bf2e3f72f5b2e3fd87c82baa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/d64980d623e67ef8f868aa3f65f11b3075f00435/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c733e9d1b065d940a08f2fca0ff920dfc08d94cc">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_91139f6e6d651587ccc8643bd3d337cda74144f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/454f2dfe28ac4f98786cf906ace7b7ba0a10ae03/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_01f3aadcca8148ebb2418e6844084e0d0483aee4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/6fe7a2424f30dbc7c5c5a799b6ddc1de34495f8b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e2e88bd352afef11b1612b059634aa1abe0a1b72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/32bbbb1ee24649be79d9df44afc639c229cdf650/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_075ee342986b0bdd517230bc71b77abd76208237/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/411ab1ff7fbdc639de95c44b0b37b0967e802487/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0943f06f99e19ecf99f7bf53c4a518728956226d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/53f588efe77c461458eacc748bcbd7b06af05da6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb7467b7f019ace3fff8e21e1cf659ef3c0e2211/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/88a60b13bbd039e4de2f25381f513962a44d134a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e0ca8f617c3d9ca66b799c018bcd5372fb896fd1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_02b6e3dbf9949abd03122e86239a3ea51e1f648a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/f79805d18b8d3b70b3a17865247dcad8d5c844c7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_84d89af10e4966ea6c0a0f2696d5e5b1f371f65b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/bd0e45bc8b1e3f31fa94caef6f13fd9181e3d718/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e77b14887dd607a271e9b7c6624a6381c614da7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/dcecb34830f1ec0282309554dcf44ae73c776ec9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d2e38b20322964c3f356d1c484069441b3c19d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2e1389cc605db6eacc69c310b2ebdaa8585e219c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fe37ff913a4403800f90bee8f576311fdc2184f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/fb04d9252933570b07e04a0b23e82df243056e64/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e22695e71aa3cfa51a0953dd2d5a1d39adcb0b1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/587d6e64dc16ec5501711dcd422ddbb33fa3c29b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d29d58ef13fae36915965046235cf5fccb332ad4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2e1389cc605db6eacc69c310b2ebdaa8585e219c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fe37ff913a4403800f90bee8f576311fdc2184f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/Desktop/students_app-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6413b244fc2526f76f09cd782ff41db892dc49d9">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2b23c700c572a4d791f213dbd6740b76d50110e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_65e8275af7a32297d83e71fc52f86370d561fe34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2d99cd76f0a76556a532d815fa72c0fc59b08ec0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca1a022253e335fbfdeacc6205aaaffd96506686/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/134969f20807d21358af2e24d5778ff660942d1f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ceec752e731553d427ecd8716dd14c0cca74f85d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/0e3b83c1cac7a0a84486d1da3c553c7f2427a95a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3bee84fcb68feb81d93b8ae6feb4981db0e9b297/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/05e71172a852141eb7dc2b9fffcc3be0c1a9b5c5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_20138765c337e383b68ddd8acb3737b0058e0cc5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2df971fc172ea191f121dd2bed2a67810b18b0e8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_41e074b4364b5e9754a4221ba8534b81cde235d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/2ba95c9626f2c443eefd9c27a7fec44313013f32/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_886021b9c57969aa0d14f2dc6596ffd8df0bdbeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/46a741cbccbd6cefa72cf8658146e3f82dc1aa9f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c2e1c939667f539d0d894e81c7c6da5b5ecdf104/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/edf4450262b52f4b78bbf6cc4dd26f1eada9f6a3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_477ff76b3358dc89aaf78a4d5da9f6ad14ca90fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/16ebecf6846f5577f155c947971bde08736b218a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e05f06d5c6d6e052c183c64c2dcbc9dc8e6a0cd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/df4ad619862b807413190b5657a0c9cd6f4bc6c1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68804686d8227ebc0a39336aee3f5249ebde5efa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/0fe61466e6be0a4fd11ff5dc4a1c8e0fa2330955/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b6959774595f4bf15ae3570dbc27618caab9aec8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/d64980d623e67ef8f868aa3f65f11b3075f00435/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c733e9d1b065d940a08f2fca0ff920dfc08d94cc">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_91139f6e6d651587ccc8643bd3d337cda74144f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/d13a47b6375b309355383eba5520924036877f4a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bd876095772d5dcf7e8eda702a6d2af889b2bce4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/987775942ed85ba16c4f7af34b452b6cec21db84/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c5acae912b2c3812d1e2048a1e0f164163d41422/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harshitha/.android/build-cache/0a4d2ff07503eb5ac8cb45420ecb3f3f69a25744/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/harshitha/Desktop/students_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1f7a75ba43c401a57c21852ebf37c4c41721ae2c/classes.dex" />
+    </item>
+
+</items>

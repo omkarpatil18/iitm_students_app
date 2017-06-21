@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "747155189394",
+    "firebase_url": "https://studentsfcm.firebaseio.com",
+    "project_id": "studentsfcm",
+    "storage_bucket": "studentsfcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747155189394:android:4d7363acff996fd2",
+        "android_client_info": {
+          "package_name": "in.ac.iitm.students"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747155189394-9v8jbhmdk0r2v50hi7pev50sdv6pu10b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSart2X4RO_f8qSiX4_yLA1GF4KuKSOPw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747155189394-9v8jbhmdk0r2v50hi7pev50sdv6pu10b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
