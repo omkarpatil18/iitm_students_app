@@ -1,30 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorPrimary">#009688</color>
-    <color name="colorPrimaryDark">#00796B</color>
-    <color name="colorAccent">#FFAB00</color>
-    <color name="colorLightGreen">#C5E1A5</color>
-
-    <color name="endColor">#00695C</color>
-    <color name="startColor">#4DB6AC</color>
-
-    <color name="colorPrimaryLight">#BBDEFB</color>
-    <color name="colorPrimaryText">#212121</color>
-    <color name="colorSecondaryText">#757575</color>
-
-    <color name="colorRecyclerViewBG">#ece7e7</color>
-
-    <color name="lightGreen">#8BC34A</color>
-    <color name="brown">#795548</color>
-    <color name="cyan">#00BCD4</color>
-    <color name="amber">#FFC107</color>
-    <color name="white">#FFFFFF</color>
-
-    <color name="polyline_blue">#D442A5F5</color>
-</resources><!--500,700,A200--><!--800,300--><!--100,900,600-->
-||||||| merged common ancestors
-=======
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#009688</color>
@@ -51,4 +24,3 @@
 
     <color name="polyline_blue">#D442A5F5</color>
 </resources><!--500,700,A200--><!--800,300--><!--100,900,600-->
->>>>>>> 1058df56dee3ae024f1d69a2eea1e9ddc51eab8c

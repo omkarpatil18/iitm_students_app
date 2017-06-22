@@ -42,11 +42,12 @@ dependencies {
     compile 'com.google.firebase:firebase-messaging:10.0.1'
     compile 'com.google.code.gson:gson:2.7'
     compile 'org.jsoup:jsoup:1.8.1'
-    testCompile 'junit:junit:4.12'
     compile 'com.google.android.gms:play-services-maps:10.0.1'
     compile 'com.google.android.gms:play-services-gcm:10.0.1'
     compile 'com.google.maps.android:android-maps-utils:0.4.4'
     compile 'com.android.support:multidex:1.0.1'
     compile 'com.google.android.gms:play-services:10.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
+    testCompile 'junit:junit:4.12'
 }
 apply plugin: 'com.google.gms.google-services'
