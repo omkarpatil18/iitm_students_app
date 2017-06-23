@@ -22,8 +22,9 @@ import in.ac.iitm.students.activities.main.T5EActivity;
  */
 
 public class NavigationDrawer {
-    public static boolean navActivity(int id, Context context,boolean f) {
-        Intent intent = new Intent();
+    Intent intent;
+    public boolean navActivity(int id, Context context,boolean f, Intent i) {
+        intent = i;
         boolean flag=f;
         if (id == R.id.nav_home) {
             intent = new Intent(context, HomeActivity.class);
@@ -68,5 +69,8 @@ public class NavigationDrawer {
 
         }
         return flag;
+    }
+    public Intent getIntent(){
+        return intent;
     }
 }

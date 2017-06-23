@@ -66,6 +66,7 @@ import in.ac.iitm.students.fragments.ForceUpdateDialogFragment;
 import in.ac.iitm.students.fragments.OptionalUpdateDialogFragment;
 import in.ac.iitm.students.others.LogOutAlertClass;
 import in.ac.iitm.students.others.MySingleton;
+import in.ac.iitm.students.others.NavigationDrawer;
 import in.ac.iitm.students.others.UtilStrings;
 import in.ac.iitm.students.others.Utils;
 
@@ -527,65 +528,32 @@ public class HomeActivity extends AppCompatActivity
         final Context context = HomeActivity.this;
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_search) {
-            intent = new Intent(context, StudentSearchActivity.class);
-            flag = true;
-        } else if (id == R.id.nav_contacts) {
-            intent = new Intent(context, ImpContactsActivity.class);
-            flag = true;
-        } else if (id == R.id.nav_map) {
-            intent = new Intent(context, MapActivity.class);
-            flag = true;
-        } else if (id == R.id.nav_eml) {
-            intent = new Intent(context, EMLActivity.class);
-            flag = true;
-        } else if (id == R.id.nav_mess_and_facilities) {
-            intent = new Intent(context, MessAndFacilitiesActivity.class);
-            flag = true;
-        } else if (id == R.id.nav_t5e) {
-            intent = new Intent(context, T5EActivity.class);
-            flag = true;
+        if (id != R.id.nav_home) {
 
-        } else if (id == R.id.nav_calendar) {
-            intent = new Intent(context, CalendarActivity.class);
-            flag = true;
-        } else if (id == R.id.nav_schroeter) {
-            intent = new Intent(context, SchroeterActivity.class);
-            flag = true;
+            NavigationDrawer nd = new NavigationDrawer();
+            flag = nd.navActivity(id, context, flag, intent);
 
-        } else if (id == R.id.nav_subscriptions) {
-            intent = new Intent(context, SubscriptionActivity.class);
-            intent.putExtra("knock_knock", "home");
-            flag = true;
+            if (id == R.id.nav_subscriptions) {
+                intent = new Intent(context, SubscriptionActivity.class);
+                intent.putExtra("knock_knock", "home");
+                flag = true;
 
-        } else if (id == R.id.nav_about) {
-            intent = new Intent(context, AboutUsActivity.class);
-            flag = true;
-
-        } else if (id == R.id.nav_subscriptions) {
-            intent = new Intent(context, SubscriptionActivity.class);
-            flag = true;
-
-        } else if (id == R.id.nav_contact_us) {
-            intent = new Intent(context, ContactUsActivity.class);
-            flag = true;
-
-        } else if (id == R.id.nav_log_out) {
-            drawer.closeDrawer(GravityCompat.START);
-            Handler handler = new Handler();
-            handler.postDelayed(
-                    new Runnable() {
-                        @Override
-                        public void run() {
-                            LogOutAlertClass lg = new LogOutAlertClass();
-                            lg.isSure(HomeActivity.this);
+            } else if (id == R.id.nav_log_out) {
+                drawer.closeDrawer(GravityCompat.START);
+                Handler handler = new Handler();
+                handler.postDelayed(
+                        new Runnable() {
+                            @Override
+                            public void run() {
+                                LogOutAlertClass lg = new LogOutAlertClass();
+                                lg.isSure(HomeActivity.this);
+                            }
                         }
-                    }
-                    , getResources().getInteger(R.integer.close_nav_drawer_delay)  // it takes around 200 ms for drawer to close
-            );
-            return true;
+                        , getResources().getInteger(R.integer.close_nav_drawer_delay)  // it takes around 200 ms for drawer to close
+                );
+                return true;
+            }
+            intent=nd.getIntent();
         }
 
         drawer.closeDrawer(GravityCompat.START);
