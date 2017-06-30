@@ -63,6 +63,8 @@ public class CourseTimetableFragment extends Fragment {
     ViewFlipper flipper;
     boolean freshie = false;
 
+    //TODO: Make changes for freshies
+
     public CourseTimetableFragment() {
         // Required empty public constructor
     }

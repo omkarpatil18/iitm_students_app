@@ -25,7 +25,7 @@ public class BunkMonitorFragment extends Fragment {
     BunksAdapter bunksAdapter;
     ArrayList<Bunks> bunks;
 
-
+    //TODO: Add reminders for slots
 
     public BunkMonitorFragment() {
         // Required empty public constructor

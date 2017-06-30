@@ -58,6 +58,9 @@ public class CalendarDisplayActivity extends FragmentActivity {
     ViewPager viewPager;
     CalendarPagerAdapter calendarPagerAdapter;
     long CalID;
+    String[] months = {"january","february","march","april","may","june","july","august","september",
+    "october","november","december"};
+    String url = "";//url of api file
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -74,30 +77,45 @@ public class CalendarDisplayActivity extends FragmentActivity {
             Log.i("CalID", CalID + "");
             Utils.saveprefLong("CalID", CalID, this);
         }
-        //Calendar Sync
-        String url = "";        //insert URL of api file
 
+        for(int m=0;m<12;m++)
+        {
+            sendJsonRequest(m);
+        }
+
+        viewPager = (ViewPager) findViewById(R.id.viewPager);
+        calendarPagerAdapter = new CalendarPagerAdapter(getSupportFragmentManager());
+        viewPager.setAdapter(calendarPagerAdapter);
+        Utils.saveprefInt("TT_Screen", 0, this);
+
+    }
+
+    void sendJsonRequest(final int month)
+    {
         JsonArrayRequest jrequest = new JsonArrayRequest(Request.Method.POST, url, null, new Response.Listener<JSONArray>() {
 
             @Override
             public void onResponse(JSONArray response) {
-                //CalendarDataSource dataSource = new CalendarDataSource(CalendarDisplayActivity.this);
-                //dataSource.open();
 
                 try {
                     for (int i = 0; i < 31; i++) {
+                        if(response.isNull(i))
+                        {
+                            return;
+                        }
                         JSONObject jsonObject = response.getJSONObject(i);
                         Calendar_Event event = new Calendar_Event();
                         event.setDate(jsonObject.getInt("date"));
-                        event.setMonth(7);  //0 for Jan, 11 for December and so on 7 for August
+                        event.setMonth(month);  //0 for Jan, 11 for December and so on 7 for August
                         event.setDay(jsonObject.getString("day"));
                         event.setDetails(jsonObject.getString("details"));
                         event.setHoliday(jsonObject.getInt("holiday") == 1);
                         event.setRemind(jsonObject.getInt("remind") == 1);
+
                         if (event.getDetails().length() > 0 && !exists(event)) {
                             insertEvents(CalID, event);
                         }
-                        //dataSource.insertEvent(event);
+
                         Log.i("JSONResp3", event.getDay());
                     }
 
@@ -115,21 +133,12 @@ public class CalendarDisplayActivity extends FragmentActivity {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("month", "august");
+                params.put("month", months[month]);
                 return params;
             }
         };
         MySingleton.getInstance(this).addToRequestQueue(jrequest);
 
-        viewPager = (ViewPager) findViewById(R.id.viewPager);
-        calendarPagerAdapter = new CalendarPagerAdapter(getSupportFragmentManager());
-        viewPager.setAdapter(calendarPagerAdapter);
-        Utils.saveprefInt("TT_Screen", 0, this);
-
-        //TODO: New adapter for freshies
-        //String calendarUrl = getIntent().getStringExtra("calendar_url");
-        //Toast.makeText(this, calendarUrl, Toast.LENGTH_SHORT).show();
-        //callFragment(calendarUrl);
     }
 
     void insertEvents(long calId, Calendar_Event event) {
