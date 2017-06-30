@@ -64,9 +64,9 @@ public class CalendarDisplayActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_calendar);
 
-        String acc = "AccNameNew";
-        String disp = "DispName";
-        String inter = "IntName";
+        String acc = "students.iitm";
+        String disp = "IITM Calendar";
+        String inter = "IITM Calendar";
 
         CalID = Utils.getprefLong("CalID", this);
         if (CalID == -1) {
@@ -75,7 +75,7 @@ public class CalendarDisplayActivity extends FragmentActivity {
             Utils.saveprefLong("CalID", CalID, this);
         }
         //Calendar Sync
-        String url = "http://192.168.137.1/month.php";
+        String url = "";        //insert URL of api file
 
         JsonArrayRequest jrequest = new JsonArrayRequest(Request.Method.POST, url, null, new Response.Listener<JSONArray>() {
 
@@ -85,11 +85,11 @@ public class CalendarDisplayActivity extends FragmentActivity {
                 //dataSource.open();
 
                 try {
-                    for (int i = 0; i < 30; i++) {
+                    for (int i = 0; i < 31; i++) {
                         JSONObject jsonObject = response.getJSONObject(i);
                         Calendar_Event event = new Calendar_Event();
                         event.setDate(jsonObject.getInt("date"));
-                        event.setMonth(7);
+                        event.setMonth(7);  //0 for Jan, 11 for December and so on 7 for August
                         event.setDay(jsonObject.getString("day"));
                         event.setDetails(jsonObject.getString("details"));
                         event.setHoliday(jsonObject.getInt("holiday") == 1);
@@ -115,7 +115,7 @@ public class CalendarDisplayActivity extends FragmentActivity {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("month", "october");
+                params.put("month", "august");
                 return params;
             }
         };
