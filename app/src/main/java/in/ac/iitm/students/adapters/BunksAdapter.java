@@ -4,6 +4,7 @@ package in.ac.iitm.students.adapters;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,10 +49,14 @@ public class BunksAdapter extends ArrayAdapter {
         else {
             holder = (ViewHolder) convertView.getTag();
         }
-        holder.slot.setText("Slot: "+Character.toString(bunks.get(position).getSlot()));
+        holder.slot.setText(Character.toString(bunks.get(position).getSlot())+" slot");
         holder.course.setText("Course: "+bunks.get(position).getCourse_id());
-        holder.totalbunks.setText("Bunks: "+bunks.get(position).getBunk_done());
-        holder.bunkcount.setText("Left: "+(bunks.get(position).getBunk_tot() - bunks.get(position).getBunk_done()));
+        holder.bunkcount.setText(bunks.get(position).getBunk_done()+"/"+bunks.get(position).getBunk_tot());
+        if(bunks.get(position).getBunk_done()*2>=bunks.get(position).getBunk_tot())
+        {
+            holder.bunkcount.setTextColor(ContextCompat.getColor(context,R.color.red));
+            holder.slot.setTextColor(ContextCompat.getColor(context,R.color.red));
+        }
         return convertView;
     }
 

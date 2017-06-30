@@ -54,6 +54,18 @@ public class Utils {
         return pref.getBoolean(key, false);
     }
 
+    public static void saveprefLong(String key, long value, Context context) {
+        SharedPreferences pref = context.getSharedPreferences("MyPref", Context.MODE_PRIVATE); // 0 - for private mode
+        SharedPreferences.Editor editor = pref.edit();
+        editor.putLong(key, value);
+        editor.commit();
+    }
+
+    public static long getprefLong(String key, Context context) {
+        SharedPreferences pref = context.getSharedPreferences("MyPref", Context.MODE_PRIVATE); // 0 - for private mode
+        SharedPreferences.Editor editor = pref.edit();
+        return pref.getLong(key, -1);
+    }
 
     public static void clearpref(Context context) {
         SharedPreferences pref = context.getSharedPreferences("MyPref", Context.MODE_PRIVATE);

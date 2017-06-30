@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.HashMap;
 
 import in.ac.iitm.students.R;
@@ -30,6 +31,8 @@ public class TimeTableFragment extends Fragment {
     HashMap<Character,String> coursemap;
     ArrayList<Bunks> bunks;
     View view;
+    int mContainer;
+    boolean freshie = false;
 
     public TimeTableFragment() {
         // Required empty public constructor
@@ -41,18 +44,13 @@ public class TimeTableFragment extends Fragment {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_time_table, container, false);
 
-
         bunks = new ArrayList<>();
         coursemap = new HashMap<>();
-
-        getcourses();
-        getcoursemap();
 
         for(int i=0;i<5;i++)
         {
             for(int j=0;j<8;j++)
             {
-
                 slots[i][j] = 'X';
                 bunk[i][j] = Utils.getprefBool("state"+8*i+j,getActivity());
                 tvs[i][j] = (TextView)view.findViewById(ids[i][j]);
@@ -67,10 +65,28 @@ public class TimeTableFragment extends Fragment {
             }
         }
 
-        for(Bunks c:bunks)
-        {
-            mapslots(c.getSlot(),c.getDays());
+
+        if(!freshie) {
+            getcourses();
+            getcoursemap();
+            for (Bunks c : bunks) {
+                mapslots(c.getSlot(), c.getDays());
+            }
         }
+        else
+        {
+            getFreshieConfig();
+        }
+
+        Calendar calendar = Calendar.getInstance();
+        int week = calendar.get(Calendar.WEEK_OF_YEAR);
+        if(week>Utils.getprefInt("LastLogTT",getActivity()))
+        {
+            clearbunks();
+        }
+        Utils.saveprefInt("LastLogTT",week,getActivity());
+
+
 
         for(int i=0;i<5;i++)
         {
@@ -104,9 +120,25 @@ public class TimeTableFragment extends Fragment {
                 });
             }
         }
-        
+
         return view;
 
+    }
+
+    private void getFreshieConfig()
+    {
+        //TODO: Populate bunks and coursemap
+    }
+
+    private void clearbunks()   //clear bunks at end of each week
+    {
+        for(int x=0;x<5;x++)
+        {
+            for(int y=0;y<8;y++)
+            {
+                Utils.saveprefBool("state"+8*x+y,false,getActivity());
+            }
+        }
     }
 
     private void updatebunks(int x, int y, boolean add)
@@ -122,7 +154,7 @@ public class TimeTableFragment extends Fragment {
         }
         Bunks b = bunks.get(pos);
         b.setBunk_done(add?b.getBunk_done()+1:b.getBunk_done()-1);
-        Utils.saveprefInt(UtilStrings.COURSE_NUM+pos+UtilStrings.BUNKS_DONE,add?b.getBunk_done()+1:b.getBunk_done()-1,getActivity());
+        Utils.saveprefInt(UtilStrings.COURSE_NUM+pos+UtilStrings.BUNKS_DONE,b.getBunk_done(),getActivity());
         bunks.set(pos,b);
         ((CalendarDisplayActivity)getActivity()).returnadapter().notifyDataSetChanged();
     }
@@ -134,6 +166,7 @@ public class TimeTableFragment extends Fragment {
             coursemap.put(c.getSlot(),c.getCourse_id());
         }
     }
+
 
     public void getcourses()
     {

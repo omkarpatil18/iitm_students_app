@@ -1,10 +1,14 @@
 package in.ac.iitm.students.fragments;
 
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.GridView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -17,7 +21,7 @@ import in.ac.iitm.students.others.Utils;
 
 public class BunkMonitorFragment extends Fragment {
 
-    ListView listView;
+    GridView gridView;
     BunksAdapter bunksAdapter;
     ArrayList<Bunks> bunks;
 
@@ -38,9 +42,11 @@ public class BunkMonitorFragment extends Fragment {
         getcourses();
 
         bunksAdapter = new BunksAdapter(getActivity(), bunks);
-        listView = (ListView)view.findViewById(R.id.bunk_list);
+        gridView = (GridView)view.findViewById(R.id.bunk_list);
 
-        listView.setAdapter(bunksAdapter);
+        gridView.setAdapter(bunksAdapter);
+        gridView.setNumColumns((getActivity().getResources().getConfiguration().orientation
+                ==Configuration.ORIENTATION_PORTRAIT)?2:3);  //3 if landscape
         
         return view;
     }

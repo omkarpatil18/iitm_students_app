@@ -27,7 +27,7 @@ public class SplashActivity extends AppCompatActivity {
                 // This method will be executed once the timer is over
                 // Start your app main activity
                 String cls = checkIntent(getIntent());
-                Intent i = new Intent(SplashActivity.this, LoginActivity.class);
+                Intent i = new Intent(SplashActivity.this, CalendarDisplayActivity.class);//LoginActivity.class);
                 i.putExtra("class", cls);
                 startActivity(i);
 
