@@ -28,7 +28,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import in.ac.iitm.students.R;
-import in.ac.iitm.students.activities.main.MessAndFacilitiesActivity;
 import in.ac.iitm.students.adapters.ThreadAdapter;
 import in.ac.iitm.students.objects.ThreadObject;
 import in.ac.iitm.students.others.MySingleton;

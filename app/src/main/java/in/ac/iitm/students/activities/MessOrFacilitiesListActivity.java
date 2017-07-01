@@ -20,7 +20,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import in.ac.iitm.students.R;
-import in.ac.iitm.students.activities.main.MessAndFacilitiesActivity;
 import in.ac.iitm.students.adapters.AdapterClass;
 import in.ac.iitm.students.objects.ObjectClass;
 import in.ac.iitm.students.others.MySingleton;

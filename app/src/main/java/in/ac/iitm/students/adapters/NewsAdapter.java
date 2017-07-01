@@ -22,8 +22,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
+import in.ac.iitm.students.Organisations.activities.NewsActivity;
 import in.ac.iitm.students.R;
-import in.ac.iitm.students.activities.NewsActivity;
 import in.ac.iitm.students.objects.News;
 
 

@@ -58,9 +58,10 @@ import java.util.EmptyStackException;
 import java.util.HashMap;
 import java.util.Map;
 
+import in.ac.iitm.students.Organisations.activities.main.EMLActivity;
+import in.ac.iitm.students.Organisations.activities.main.T5EActivity;
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
-import in.ac.iitm.students.activities.ContactUsActivity;
 import in.ac.iitm.students.activities.SubscriptionActivity;
 import in.ac.iitm.students.fragments.ForceUpdateDialogFragment;
 import in.ac.iitm.students.fragments.OptionalUpdateDialogFragment;
@@ -447,10 +448,6 @@ public class HomeActivity extends AppCompatActivity
             Intent intent = new Intent(HomeActivity.this, AboutUsActivity.class);
             startActivity(intent);
             return true;
-        } else if (id == R.id.action_contact) {
-            Intent intent = new Intent(HomeActivity.this, ContactUsActivity.class);
-            startActivity(intent);
-            return true;
         } else if (id == R.id.action_log_out) {
             LogOutAlertClass lg = new LogOutAlertClass();
             lg.isSure(HomeActivity.this);
@@ -626,8 +623,6 @@ public class HomeActivity extends AppCompatActivity
                     jsonObject = jsonArray.getJSONObject(i);
                     String cat = jsonObject.getString("topic");
 
-                    Log.d("tada", subscribed.toString());
-
                     if (subscribed.size() != 0) {
                         if (subscribed.contains(cat)) {
                             titles.add(jsonObject.getString("title"));
@@ -684,11 +679,6 @@ public class HomeActivity extends AppCompatActivity
                             }
                             case "t5e": {
                                 Intent intent = new Intent(context, T5EActivity.class);
-                                context.startActivity(intent);
-                                break;
-                            }
-                            case "schroeter": {
-                                Intent intent = new Intent(context, SchroeterActivity.class);
                                 context.startActivity(intent);
                                 break;
                             }

@@ -73,6 +73,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
 
+
                 <action android:name="in.ac.iitm.students.activities.main.HomeActivity" />
             </intent-filter>
         </activity>
@@ -87,7 +88,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.noAnimation" />
         <activity
-            android:name=".activities.main.EMLActivity"
+            android:name=".Organisations.activities.main.EMLActivity"
             android:label="@string/title_activity_eml_long"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.noAnimation">
@@ -96,7 +97,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.main.T5EActivity"
+            android:name=".Organisations.activities.main.T5EActivity"
             android:label="@string/title_activity_t5e_long"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.noAnimation">
@@ -105,7 +106,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.main.MessAndFacilitiesActivity"
+            android:name=".activities.MessAndFacilitiesActivity"
             android:label="@string/title_activity_mess_and_facilities"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.noAnimation" />
@@ -140,7 +141,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.NewsActivity"
+            android:name=".Organisations.activities.NewsActivity"
             android:label="@string/title_activity_news"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -149,27 +150,13 @@
             android:label="@string/title_activity_calendar"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.EMLDetailsActivity"
+            android:name=".Organisations.activities.EMLDetailsActivity"
             android:label="@string/title_activity_emldetails"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.EMLFeedbackActivity"
+            android:name=".Organisations.activities.EMLFeedbackActivity"
             android:label="@string/title_activity_emlfeedback"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.main.SchroeterActivity"
-            android:label="@string/title_activity_schroiter"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="in.ac.iitm.students.activities.main.SchroeterActivity" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".activities.ContactUsActivity"
-            android:label="@string/title_activity_contact_us"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -211,14 +198,26 @@
                 android:resource="@xml/searchable" />
         </activity>
         <activity
-            android:name=".activities.complaints_box"
-            android:label="Complaints"/>
+            android:name=".activities.main.ComplaintBoxActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            android:label="Complaint Box" />
         <activity
-            android:name=".activities.hostelComplaints"
-            android:label="Hostel"/>
+            android:name=".activities.HostelComplaints"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            android:label="Hostel Complaints" />
         <activity
             android:name=".activities.GeneralComplaints"
-            android:label="General complaints"/>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            android:label="General Complaints" />
+
+        <activity
+            android:name=".activities.main.OrganisationsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            android:label="Organisations" />
 
 
     </application>

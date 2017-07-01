@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="in.ac.iitm.students.activities.EMLFeedbackActivity"
+    tools:context=".Organisations.activities.EMLFeedbackActivity"
     tools:showIn="@layout/activity_emlfeedback">
 
     <LinearLayout

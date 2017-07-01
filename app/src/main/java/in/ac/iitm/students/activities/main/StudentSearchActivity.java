@@ -28,8 +28,6 @@ import java.util.List;
 
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
-import in.ac.iitm.students.activities.ContactUsActivity;
-import in.ac.iitm.students.activities.SubscriptionActivity;
 import in.ac.iitm.students.fragments.NameSearchFragment;
 import in.ac.iitm.students.fragments.RollSearchFragment;
 import in.ac.iitm.students.others.LogOutAlertClass;
@@ -129,10 +127,6 @@ public class StudentSearchActivity extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
             Intent intent = new Intent(StudentSearchActivity.this, AboutUsActivity.class);
-            startActivity(intent);
-            return true;
-        } else if (id == R.id.action_contact) {
-            Intent intent = new Intent(StudentSearchActivity.this, ContactUsActivity.class);
             startActivity(intent);
             return true;
         } else if (id == R.id.action_log_out) {

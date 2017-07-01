@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Students App IITM 2.0.1"
+        android:text="Students App IITM 3.0.0"
         android:textColor="#FFFFFF"
         android:textSize="24sp" />
 
@@ -29,4 +29,20 @@
         android:text="@string/about_us"
         android:textColor="#FFFFFF"
         android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="In case you find any bug, contact us"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tv_email_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="institutewebops@gmail.com"
+        android:textColor="@android:color/holo_blue_bright" />
 </LinearLayout>

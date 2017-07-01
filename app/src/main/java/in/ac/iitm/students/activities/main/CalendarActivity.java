@@ -36,8 +36,6 @@ import java.util.ArrayList;
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
 import in.ac.iitm.students.activities.CalendarDisplayActivity;
-import in.ac.iitm.students.activities.ContactUsActivity;
-import in.ac.iitm.students.activities.SubscriptionActivity;
 import in.ac.iitm.students.others.LogOutAlertClass;
 import in.ac.iitm.students.others.MySingleton;
 import in.ac.iitm.students.others.NavigationDrawer;
@@ -235,10 +233,6 @@ public class CalendarActivity extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
             Intent intent = new Intent(CalendarActivity.this, AboutUsActivity.class);
-            startActivity(intent);
-            return true;
-        } else if (id == R.id.action_contact) {
-            Intent intent = new Intent(CalendarActivity.this, ContactUsActivity.class);
             startActivity(intent);
             return true;
         } else if (id == R.id.action_log_out) {

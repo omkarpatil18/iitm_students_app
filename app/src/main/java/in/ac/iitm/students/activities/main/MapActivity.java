@@ -81,8 +81,6 @@ import java.util.List;
 
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
-import in.ac.iitm.students.activities.ContactUsActivity;
-import in.ac.iitm.students.activities.SubscriptionActivity;
 import in.ac.iitm.students.others.ClusterMarkerLocation;
 import in.ac.iitm.students.others.DataParser;
 import in.ac.iitm.students.others.IITMBusStops;
@@ -512,11 +510,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             case R.id.action_about:
                 Intent intent = new Intent(MapActivity.this, AboutUsActivity.class);
                 startActivity(intent);
-                return true;
-
-            case R.id.action_contact:
-                Intent _intent = new Intent(MapActivity.this, ContactUsActivity.class);
-                startActivity(_intent);
                 return true;
             case R.id.action_log_out:
                 LogOutAlertClass lg = new LogOutAlertClass();
