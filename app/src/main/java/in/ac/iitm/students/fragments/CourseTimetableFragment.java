@@ -1,8 +1,6 @@
 package in.ac.iitm.students.fragments;
 
 import android.app.Dialog;
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
@@ -10,7 +8,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,21 +19,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
-import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
-import java.util.Map;
 
 import in.ac.iitm.students.R;
-import in.ac.iitm.students.activities.CalendarDisplayActivity;
+import in.ac.iitm.students.activities.main.TimetableActivity;
 import in.ac.iitm.students.adapters.CourseAdapter;
 import in.ac.iitm.students.objects.Bunks;
 import in.ac.iitm.students.objects.Course;
@@ -234,7 +222,7 @@ public class CourseTimetableFragment extends Fragment {
         b.setBunk_done(add?b.getBunk_done()+1:b.getBunk_done()-1);
         Utils.saveprefInt(UtilStrings.COURSE_NUM+pos+UtilStrings.BUNKS_DONE,b.getBunk_done(),getActivity());
         bunks.set(pos,b);
-        ((CalendarDisplayActivity)getActivity()).returnadapter().notifyDataSetChanged();
+        ((TimetableActivity) getActivity()).returnadapter().notifyDataSetChanged();
     }
 
     private void getcoursemap()

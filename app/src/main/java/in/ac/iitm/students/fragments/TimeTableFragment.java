@@ -13,7 +13,7 @@ import java.util.Calendar;
 import java.util.HashMap;
 
 import in.ac.iitm.students.R;
-import in.ac.iitm.students.activities.CalendarDisplayActivity;
+import in.ac.iitm.students.activities.main.TimetableActivity;
 import in.ac.iitm.students.objects.Bunks;
 import in.ac.iitm.students.others.UtilStrings;
 import in.ac.iitm.students.others.Utils;
@@ -156,7 +156,7 @@ public class TimeTableFragment extends Fragment {
         b.setBunk_done(add?b.getBunk_done()+1:b.getBunk_done()-1);
         Utils.saveprefInt(UtilStrings.COURSE_NUM+pos+UtilStrings.BUNKS_DONE,b.getBunk_done(),getActivity());
         bunks.set(pos,b);
-        ((CalendarDisplayActivity)getActivity()).returnadapter().notifyDataSetChanged();
+        ((TimetableActivity) getActivity()).returnadapter().notifyDataSetChanged();
     }
 
     private void getcoursemap()

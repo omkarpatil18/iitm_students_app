@@ -7,7 +7,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Config;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,7 +30,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import in.ac.iitm.students.R;
-import in.ac.iitm.students.activities.CalendarDisplayActivity;
+import in.ac.iitm.students.activities.main.TimetableActivity;
 import in.ac.iitm.students.adapters.CourseAdapter;
 import in.ac.iitm.students.objects.Course;
 import in.ac.iitm.students.others.UtilStrings;
@@ -82,8 +81,8 @@ public class CourseAddFragment extends Fragment {
             public void onClick(View v) {
                 addcourses();
                 Utils.saveprefInt("TT_Screen",1,getActivity());
-                ((CalendarDisplayActivity)getActivity()).returnadapter().notifyDataSetChanged();
-                ((CalendarDisplayActivity)getActivity()).returnpager().setCurrentItem(1);
+                ((TimetableActivity) getActivity()).returnadapter().notifyDataSetChanged();
+                ((TimetableActivity) getActivity()).returnpager().setCurrentItem(1);
             }
         });
 

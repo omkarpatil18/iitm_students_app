@@ -67,7 +67,6 @@ import in.ac.iitm.students.fragments.ForceUpdateDialogFragment;
 import in.ac.iitm.students.fragments.OptionalUpdateDialogFragment;
 import in.ac.iitm.students.others.LogOutAlertClass;
 import in.ac.iitm.students.others.MySingleton;
-import in.ac.iitm.students.others.NavigationDrawer;
 import in.ac.iitm.students.others.UtilStrings;
 import in.ac.iitm.students.others.Utils;
 
@@ -84,6 +83,7 @@ public class HomeActivity extends AppCompatActivity
     private Snackbar snackbar;
     private FragmentManager fm;
     private SwipeRefreshLayout swipeRefreshLayout;
+    private DrawerLayout drawer;
 
     public static Context getContext() {
         return mContext;
@@ -177,7 +177,7 @@ public class HomeActivity extends AppCompatActivity
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swiperefreshhome);
         swipeRefreshLayout.setOnRefreshListener(HomeActivity.this);
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
@@ -226,8 +226,6 @@ public class HomeActivity extends AppCompatActivity
                 .fit()
                 .centerCrop()
                 .into(imageView);
-
-
     }
 
     public void onRefresh() {
@@ -523,34 +521,50 @@ public class HomeActivity extends AppCompatActivity
         Intent intent = new Intent();
         boolean flag = false;
         final Context context = HomeActivity.this;
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
-        if (id != R.id.nav_home) {
+        if (id == R.id.nav_home) {
+            //intent = new Intent(context, HomeActivity.class);
+            //flag = true;
+        } else if (id == R.id.nav_organisations) {
+            intent = new Intent(context, OrganisationsActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_search) {
+            intent = new Intent(context, StudentSearchActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_map) {
+            intent = new Intent(context, MapActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_complaint_box) {
+            intent = new Intent(context, ComplaintBoxActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_timetable) {
+            intent = new Intent(context, TimetableActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_contacts) {
+            intent = new Intent(context, ImpContactsActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_subscriptions) {
+            intent = new Intent(context, SubscriptionActivity.class);
+            flag = true;
 
-            NavigationDrawer nd = new NavigationDrawer();
-            flag = nd.navActivity(id, context, flag, intent);
+        } else if (id == R.id.nav_about) {
+            intent = new Intent(context, AboutUsActivity.class);
+            flag = true;
 
-            if (id == R.id.nav_subscriptions) {
-                intent = new Intent(context, SubscriptionActivity.class);
-                intent.putExtra("knock_knock", "home");
-                flag = true;
-
-            } else if (id == R.id.nav_log_out) {
-                drawer.closeDrawer(GravityCompat.START);
-                Handler handler = new Handler();
-                handler.postDelayed(
-                        new Runnable() {
-                            @Override
-                            public void run() {
-                                LogOutAlertClass lg = new LogOutAlertClass();
-                                lg.isSure(HomeActivity.this);
-                            }
+        } else if (id == R.id.nav_log_out) {
+            drawer.closeDrawer(GravityCompat.START);
+            Handler handler = new Handler();
+            handler.postDelayed(
+                    new Runnable() {
+                        @Override
+                        public void run() {
+                            LogOutAlertClass lg = new LogOutAlertClass();
+                            lg.isSure(HomeActivity.this);
                         }
-                        , getResources().getInteger(R.integer.close_nav_drawer_delay)  // it takes around 200 ms for drawer to close
-                );
-                return true;
-            }
-            intent=nd.getIntent();
+                    }
+                    , getResources().getInteger(R.integer.close_nav_drawer_delay)  // it takes around 200 ms for drawer to close
+            );
+            return true;
         }
 
         drawer.closeDrawer(GravityCompat.START);

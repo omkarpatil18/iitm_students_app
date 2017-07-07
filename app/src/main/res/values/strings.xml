@@ -28,14 +28,12 @@
     <integer name="close_nav_drawer_delay">150</integer>
 
     <integer name="nav_index_home">0</integer>
-    <integer name="nav_index_search">1</integer>
-    <integer name="nav_index_maps">2</integer>
-    <integer name="nav_index_organisations">3</integer>
-    <integer name="nav_index_eml">4</integer>
-    <integer name="nav_index_t5e">5</integer>
-    <integer name="nav_index_complaint_box">6</integer>
-    <integer name="nav_index_calendar">7</integer>
-    <integer name="nav_index_contacts">8</integer>
+    <integer name="nav_index_search">2</integer>
+    <integer name="nav_index_maps">3</integer>
+    <integer name="nav_index_organisations">1</integer>
+    <integer name="nav_index_complaint_box">4</integer>
+    <integer name="nav_index_timetable">5</integer>
+    <integer name="nav_index_contacts">6</integer>
 
     <string name="LoginURl">https://students.iitm.ac.in/studentsapp/login/index.php</string>
     <string name="url_register_fcm">https://students.iitm.ac.in/studentsapp/general/token_register.php</string>
@@ -70,7 +68,7 @@
     <string name="title_activity_list">New Complaint</string>
     <string name="title_activity_complaint">Complaint</string>
     <string name="title_activity_news">Article</string>
-    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_timetable">Timetable</string>
     <string name="title_activity_feedback">Feedback</string>
     <string name="title_activity_emldetails">Lecture Details</string>
     <string name="title_activity_emlfeedback">Feedback Or Questionnaire</string>
@@ -79,6 +77,7 @@
     <string name="title_activity_about_us">About Us</string>
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_subscriptions">Subscriptions</string>
+    <string name="title_activity_calendar">Calendar</string>
 
     <string name="update_message">Some Important Features Have Been Added.</string>
     <string name="update">Update</string>

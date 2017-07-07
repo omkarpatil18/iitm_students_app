@@ -39,14 +39,19 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+import in.ac.iitm.students.Organisations.adapters.NewsAdapter;
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
+import in.ac.iitm.students.activities.SubscriptionActivity;
+import in.ac.iitm.students.activities.main.ComplaintBoxActivity;
 import in.ac.iitm.students.activities.main.HomeActivity;
-import in.ac.iitm.students.adapters.NewsAdapter;
+import in.ac.iitm.students.activities.main.ImpContactsActivity;
+import in.ac.iitm.students.activities.main.MapActivity;
+import in.ac.iitm.students.activities.main.OrganisationsActivity;
+import in.ac.iitm.students.activities.main.StudentSearchActivity;
 import in.ac.iitm.students.objects.News;
 import in.ac.iitm.students.others.LogOutAlertClass;
 import in.ac.iitm.students.others.MySingleton;
-import in.ac.iitm.students.others.NavigationDrawer;
 import in.ac.iitm.students.others.UtilStrings;
 import in.ac.iitm.students.others.Utils;
 
@@ -61,6 +66,7 @@ public class T5EActivity extends AppCompatActivity
     Context context;
     TextView error_message;
     CoordinatorLayout coordinatorLayout;
+    private DrawerLayout drawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,14 +82,13 @@ public class T5EActivity extends AppCompatActivity
         mRecyclerView.setHasFixedSize(true);
         getNews();
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.getMenu().getItem(getResources().getInteger(R.integer.nav_index_t5e)).setChecked(true);
         navigationView.setNavigationItemSelectedListener(this);
 
         View header = navigationView.getHeaderView(0);
@@ -195,7 +200,7 @@ public class T5EActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            Intent intent = new Intent(T5EActivity.this, HomeActivity.class);
+            Intent intent = new Intent(T5EActivity.this, ComplaintBoxActivity.class);
             startActivity(intent);
         }
     }
@@ -235,29 +240,49 @@ public class T5EActivity extends AppCompatActivity
         int id = item.getItemId();
         Intent intent = new Intent();
         boolean flag = false;
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        final Context context = T5EActivity.this;
 
-       if (id != R.id.nav_t5e) {
+        if (id == R.id.nav_home) {
+            intent = new Intent(context, HomeActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_organisations) {
+            intent = new Intent(context, OrganisationsActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_search) {
+            intent = new Intent(context, StudentSearchActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_map) {
+            intent = new Intent(context, MapActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_complaint_box) {
+            intent = new Intent(context, ComplaintBoxActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_contacts) {
+            intent = new Intent(context, ImpContactsActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_subscriptions) {
+            intent = new Intent(context, SubscriptionActivity.class);
+            flag = true;
 
-           NavigationDrawer nd = new NavigationDrawer();
-           flag = nd.navActivity(id,context, flag,intent);
-           if (id == R.id.nav_log_out) {
-               drawer.closeDrawer(GravityCompat.START);
-               Handler handler = new Handler();
-               handler.postDelayed(
-                       new Runnable() {
-                           @Override
-                           public void run() {
-                               LogOutAlertClass lg = new LogOutAlertClass();
-                               lg.isSure(T5EActivity.this);
-                           }
-                       }
-                       , getResources().getInteger(R.integer.close_nav_drawer_delay)  // it takes around 200 ms for drawer to close
-               );
-               return true;
-           }
-           intent = nd.getIntent();
-       }
+        } else if (id == R.id.nav_about) {
+            intent = new Intent(context, AboutUsActivity.class);
+            flag = true;
+
+        } else if (id == R.id.nav_log_out) {
+            drawer.closeDrawer(GravityCompat.START);
+            Handler handler = new Handler();
+            handler.postDelayed(
+                    new Runnable() {
+                        @Override
+                        public void run() {
+                            LogOutAlertClass lg = new LogOutAlertClass();
+                            lg.isSure(T5EActivity.this);
+                        }
+                    }
+                    , getResources().getInteger(R.integer.close_nav_drawer_delay)  // it takes around 200 ms for drawer to close
+            );
+            return true;
+        }
 
         drawer.closeDrawer(GravityCompat.START);
 

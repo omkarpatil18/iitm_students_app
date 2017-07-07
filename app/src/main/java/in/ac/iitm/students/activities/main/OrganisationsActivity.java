@@ -29,8 +29,8 @@ import in.ac.iitm.students.Organisations.activities.main.EMLActivity;
 import in.ac.iitm.students.Organisations.activities.main.T5EActivity;
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
+import in.ac.iitm.students.activities.SubscriptionActivity;
 import in.ac.iitm.students.others.LogOutAlertClass;
-import in.ac.iitm.students.others.NavigationDrawer;
 import in.ac.iitm.students.others.UtilStrings;
 import in.ac.iitm.students.others.Utils;
 
@@ -145,26 +145,51 @@ public class OrganisationsActivity extends AppCompatActivity
         int id = item.getItemId();
         Intent intent = new Intent();
         boolean flag = false;
+        final Context context = OrganisationsActivity.this;
 
-        if (id != R.id.nav_organisations) {
-            NavigationDrawer nd = new NavigationDrawer();
-            flag = nd.navActivity(id, mContext, flag, intent);
-            if (id == R.id.nav_log_out) {
-                drawer.closeDrawer(GravityCompat.START);
-                Handler handler = new Handler();
-                handler.postDelayed(
-                        new Runnable() {
-                            @Override
-                            public void run() {
-                                LogOutAlertClass lg = new LogOutAlertClass();
-                                lg.isSure(OrganisationsActivity.this);
-                            }
+        if (id == R.id.nav_home) {
+            intent = new Intent(context, HomeActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_organisations) {
+            //intent = new Intent(context, OrganisationsActivity.class);
+            //flag = true;
+        } else if (id == R.id.nav_search) {
+            intent = new Intent(context, StudentSearchActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_map) {
+            intent = new Intent(context, MapActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_complaint_box) {
+            intent = new Intent(context, ComplaintBoxActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_timetable) {
+            intent = new Intent(context, TimetableActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_contacts) {
+            intent = new Intent(context, ImpContactsActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_subscriptions) {
+            intent = new Intent(context, SubscriptionActivity.class);
+            flag = true;
+
+        } else if (id == R.id.nav_about) {
+            intent = new Intent(context, AboutUsActivity.class);
+            flag = true;
+
+        } else if (id == R.id.nav_log_out) {
+            drawer.closeDrawer(GravityCompat.START);
+            Handler handler = new Handler();
+            handler.postDelayed(
+                    new Runnable() {
+                        @Override
+                        public void run() {
+                            LogOutAlertClass lg = new LogOutAlertClass();
+                            lg.isSure(OrganisationsActivity.this);
                         }
-                        , getResources().getInteger(R.integer.close_nav_drawer_delay)  // it takes around 200 ms for drawer to close
-                );
-                return true;
-            }
-            intent = nd.getIntent();
+                    }
+                    , getResources().getInteger(R.integer.close_nav_drawer_delay)  // it takes around 200 ms for drawer to close
+            );
+            return true;
         }
 
         drawer.closeDrawer(GravityCompat.START);
@@ -178,7 +203,7 @@ public class OrganisationsActivity extends AppCompatActivity
                     @Override
                     public void run() {
                         if (finalFlag) {
-                            mContext.startActivity(finalIntent);
+                            context.startActivity(finalIntent);
                         }
                     }
                 }
@@ -193,7 +218,7 @@ public class OrganisationsActivity extends AppCompatActivity
         if (tag.equals("EML")) {
             Intent intent = new Intent(this, EMLActivity.class);
             startActivity(intent);
-        } else if (tag.equals("T%E")) {
+        } else if (tag.equals("T5E")) {
             Intent intent = new Intent(this, T5EActivity.class);
             startActivity(intent);
         }

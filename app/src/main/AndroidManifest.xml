@@ -11,7 +11,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <application
         android:name="android.support.multidex.MultiDexApplication"
@@ -48,6 +47,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+
                 <action android:name="in.ac.iitm.students.activities.main.SplashActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -69,11 +73,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.noAnimation">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-
-
                 <action android:name="in.ac.iitm.students.activities.main.HomeActivity" />
             </intent-filter>
         </activity>
@@ -111,11 +110,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.noAnimation" />
         <activity
-            android:name=".activities.main.CalendarActivity"
-            android:label="@string/title_activity_calendar"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar.noAnimation" />
-        <activity
             android:name=".activities.StudentDetailsActivity"
             android:label="@string/title_activity_student_details"
             android:screenOrientation="portrait"
@@ -146,8 +140,8 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.CalendarDisplayActivity"
-            android:label="@string/title_activity_calendar"
+            android:name=".activities.main.TimetableActivity"
+            android:label="@string/title_activity_timetable"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Organisations.activities.EMLDetailsActivity"

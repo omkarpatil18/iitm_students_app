@@ -22,9 +22,9 @@ import com.squareup.picasso.Picasso;
 
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
+import in.ac.iitm.students.activities.SubscriptionActivity;
 import in.ac.iitm.students.adapters.ImpContactsAdapter;
 import in.ac.iitm.students.others.LogOutAlertClass;
-import in.ac.iitm.students.others.NavigationDrawer;
 import in.ac.iitm.students.others.UtilStrings;
 import in.ac.iitm.students.others.Utils;
 
@@ -32,6 +32,7 @@ public class ImpContactsActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     Toolbar toolbar;
+    private DrawerLayout drawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +48,7 @@ public class ImpContactsActivity extends AppCompatActivity
         recyclerView.setAdapter(new ImpContactsAdapter(ImpContactsActivity.this));
 
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
@@ -153,28 +154,50 @@ public class ImpContactsActivity extends AppCompatActivity
         Intent intent = new Intent();
         boolean flag = false;
         final Context context = ImpContactsActivity.this;
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
-        if (id != R.id.nav_contacts) {
+        if (id == R.id.nav_home) {
+            intent = new Intent(context, HomeActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_organisations) {
+            intent = new Intent(context, OrganisationsActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_search) {
+            intent = new Intent(context, StudentSearchActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_map) {
+            intent = new Intent(context, MapActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_complaint_box) {
+            intent = new Intent(context, ComplaintBoxActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_timetable) {
+            intent = new Intent(context, TimetableActivity.class);
+            flag = true;
+        } else if (id == R.id.nav_contacts) {
+            //intent = new Intent(context, ImpContactsActivity.class);
+            //flag = true;
+        } else if (id == R.id.nav_subscriptions) {
+            intent = new Intent(context, SubscriptionActivity.class);
+            flag = true;
 
-            NavigationDrawer nd = new NavigationDrawer();
-            flag = nd.navActivity(id, context, flag, intent);
-            if (id == R.id.nav_log_out) {
-                drawer.closeDrawer(GravityCompat.START);
-                Handler handler = new Handler();
-                handler.postDelayed(
-                        new Runnable() {
-                            @Override
-                            public void run() {
-                                LogOutAlertClass lg = new LogOutAlertClass();
-                                lg.isSure(ImpContactsActivity.this);
-                            }
+        } else if (id == R.id.nav_about) {
+            intent = new Intent(context, AboutUsActivity.class);
+            flag = true;
+
+        } else if (id == R.id.nav_log_out) {
+            drawer.closeDrawer(GravityCompat.START);
+            Handler handler = new Handler();
+            handler.postDelayed(
+                    new Runnable() {
+                        @Override
+                        public void run() {
+                            LogOutAlertClass lg = new LogOutAlertClass();
+                            lg.isSure(ImpContactsActivity.this);
                         }
-                        , getResources().getInteger(R.integer.close_nav_drawer_delay)  // it takes around 200 ms for drawer to close
-                );
-                return true;
-            }
-            intent = nd.getIntent();
+                    }
+                    , getResources().getInteger(R.integer.close_nav_drawer_delay)  // it takes around 200 ms for drawer to close
+            );
+            return true;
         }
 
         drawer.closeDrawer(GravityCompat.START);
