@@ -32,8 +32,9 @@
     <integer name="nav_index_maps">3</integer>
     <integer name="nav_index_organisations">1</integer>
     <integer name="nav_index_complaint_box">4</integer>
-    <integer name="nav_index_timetable">5</integer>
-    <integer name="nav_index_contacts">6</integer>
+    <integer name="nav_index_timetable">6</integer>
+    <integer name="nav_index_contacts">7</integer>
+    <integer name="nav_index_calendar">5</integer>
 
     <string name="LoginURl">https://students.iitm.ac.in/studentsapp/login/index.php</string>
     <string name="url_register_fcm">https://students.iitm.ac.in/studentsapp/general/token_register.php</string>

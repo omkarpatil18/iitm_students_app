@@ -196,6 +196,13 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"
             android:label="Complaint Box" />
+
+        <activity
+            android:name=".activities.main.CalendarActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            android:label="Calendar" />
+
         <activity
             android:name=".activities.HostelComplaints"
             android:theme="@style/AppTheme.NoActionBar"

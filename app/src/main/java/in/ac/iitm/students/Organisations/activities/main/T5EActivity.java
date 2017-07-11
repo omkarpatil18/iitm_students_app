@@ -47,7 +47,6 @@ import in.ac.iitm.students.activities.main.ComplaintBoxActivity;
 import in.ac.iitm.students.activities.main.HomeActivity;
 import in.ac.iitm.students.activities.main.ImpContactsActivity;
 import in.ac.iitm.students.activities.main.MapActivity;
-import in.ac.iitm.students.activities.main.OrganisationsActivity;
 import in.ac.iitm.students.activities.main.StudentSearchActivity;
 import in.ac.iitm.students.objects.News;
 import in.ac.iitm.students.others.LogOutAlertClass;
@@ -246,9 +245,6 @@ public class T5EActivity extends AppCompatActivity
             intent = new Intent(context, HomeActivity.class);
             flag = true;
         } else if (id == R.id.nav_organisations) {
-            intent = new Intent(context, OrganisationsActivity.class);
-            flag = true;
-        } else if (id == R.id.nav_search) {
             intent = new Intent(context, StudentSearchActivity.class);
             flag = true;
         } else if (id == R.id.nav_map) {

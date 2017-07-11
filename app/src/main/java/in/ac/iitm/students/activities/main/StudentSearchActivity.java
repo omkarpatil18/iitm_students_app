@@ -163,6 +163,9 @@ public class StudentSearchActivity extends AppCompatActivity
         } else if (id == R.id.nav_complaint_box) {
             intent = new Intent(context, ComplaintBoxActivity.class);
             flag = true;
+        } else if (id == R.id.nav_calendar) {
+            intent = new Intent(context, CalendarActivity.class);
+            flag = true;
         } else if (id == R.id.nav_timetable) {
             intent = new Intent(context, TimetableActivity.class);
             flag = true;

@@ -25,6 +25,11 @@
             android:title="@string/title_activity_complaint_box" />
 
         <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="@string/title_activity_calendar" />
+
+        <item
             android:id="@+id/nav_timetable"
             android:icon="@drawable/ic_school_black_24dp"
             android:title="@string/title_activity_timetable" />
