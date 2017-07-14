@@ -226,8 +226,9 @@ public class CourseTimetableFragment extends Fragment {
             }
         }
         Bunks b = bunks.get(pos);
-        b.setBunk_done(add?b.getBunk_done()+1:b.getBunk_done()-1);
-        Utils.saveprefInt(UtilStrings.COURSE_NUM+pos+UtilStrings.BUNKS_DONE,b.getBunk_done(),getActivity());
+        int bunks_d = add?(b.getBunk_done()+1):(b.getBunk_done()-1);
+        b.setBunk_done(bunks_d>=0?bunks_d:0);
+        Utils.saveprefInt(UtilStrings.COURSE_NUM+pos+UtilStrings.BUNKS_DONE,(bunks_d>=0?bunks_d:0),getActivity());
         bunks.set(pos,b);
         ((TimetableActivity) getActivity()).returnadapter().notifyDataSetChanged();
     }
@@ -262,44 +263,108 @@ public class CourseTimetableFragment extends Fragment {
         switch(c)
         {
             case 'A': {
-                slots[0][0] = (days%2==0)?'A':'X';
-                slots[3][3] = (days%5==0)?'A':'X';
-                slots[4][2] = (days%7==0)?'A':'X';
+                if(freshie) {
+                    slots[0][0] = (days % 2 == 0) ? 'A' : 'X';
+                    slots[3][3] = (days % 3 == 0) ? 'A' : 'X';
+                    slots[4][2] = (days % 5 == 0) ? 'A' : 'X';
+                }
+                else
+                {
+                    slots[0][0] = (days%2 == 0) ? 'A' : 'X';
+                    slots[1][4] = (days%3 == 0) ? 'A' : 'X';
+                    slots[3][3] = (days%5 == 0) ? 'A' : 'X';
+                    slots[4][2] = (days%7 == 0) ? 'A' : 'X';
+                }
                 break;
             }
             case 'B': {
-                slots[0][1] = (days%2==0)?'B':'X';
-                slots[1][0] = (days%3==0)?'B':'X';
-                slots[4][3] = (days%7==0)?'B':'X';
+                if(freshie) {
+                    slots[0][1] = (days % 2 == 0) ? 'B' : 'X';
+                    slots[1][0] = (days % 3 == 0) ? 'B' : 'X';
+                    slots[4][3] = (days % 5 == 0) ? 'B' : 'X';
+                }
+
+                else
+                {
+                    slots[0][1] = (days%2 == 0) ? 'B' : 'X';
+                    slots[1][0] = (days%3 == 0) ? 'B' : 'X';
+                    slots[2][4] = (days%5 == 0) ? 'B' : 'X';
+                    slots[4][3] = (days%7 == 0) ? 'B' : 'X';
+                }
                 break;
             }
             case 'C': {
-                slots[0][2] = (days%2==0)?'C':'X';
-                slots[1][1] = (days%3==0)?'C':'X';
-                slots[2][0] = (days%5==0)?'C':'X';
+                if(freshie) {
+                    slots[0][2] = (days % 2 == 0) ? 'C' : 'X';
+                    slots[1][1] = (days % 3 == 0) ? 'C' : 'X';
+                    slots[2][0] = (days % 5 == 0) ? 'C' : 'X';
+                }
+                else
+                {
+                    slots[0][2] = (days%2 == 0) ? 'C' : 'X';
+                    slots[1][1] = (days%3 == 0) ? 'C' : 'X';
+                    slots[2][0] = (days%5 == 0) ? 'C' : 'X';
+                    slots[4][4] = (days%7 == 0) ? 'C' : 'X';
+                }
                 break;
             }
             case 'D': {
-                slots[0][3] = (days%2==0)?'D':'X';
-                slots[1][2] = (days%3==0)?'D':'X';
-                slots[2][1] = (days%5==0)?'D':'X';
+                if(freshie) {
+                    slots[0][3] = (days % 2 == 0) ? 'D' : 'X';
+                    slots[1][2] = (days % 3 == 0) ? 'D' : 'X';
+                    slots[2][1] = (days % 5 == 0) ? 'D' : 'X';
+                }
+                else
+                {
+                    slots[0][3] = (days%2 == 0) ? 'D' : 'X';
+                    slots[1][2] = (days%3 == 0) ? 'D' : 'X';
+                    slots[2][1] = (days%5 == 0) ? 'D' : 'X';
+                    slots[3][4] = (days%7 == 0) ? 'D' : 'X';
+                }
                 break;
             }
             case 'E': {
-                slots[1][3] = (days%2==0)?'E':'X';
-                slots[2][2] = (days%3==0)?'E':'X';
-                slots[3][0] = (days%5==0)?'E':'X';
+                if(freshie) {
+                    slots[1][3] = (days % 2 == 0) ? 'E' : 'X';
+                    slots[2][2] = (days % 3 == 0) ? 'E' : 'X';
+                    slots[3][0] = (days % 5 == 0) ? 'E' : 'X';
+                }
+                else
+                {
+                    slots[1][4] = (days%2 == 0) ? 'E' : 'X';
+                    slots[2][3] = (days%3 == 0) ? 'E' : 'X';
+                    slots[3][0] = (days%5 == 0) ? 'E' : 'X';
+                    slots[4][7] = (days%7 == 0) ? 'E' : 'X';
+                }
                 break;
             }
             case 'F': {
-                slots[2][3] = (days%3==0)?'F':'X';
-                slots[3][1] = (days%5==0)?'F':'X';
-                slots[4][0] = (days%7==0)?'F':'X';
+                if(freshie) {
+                    slots[2][3] = (days % 2 == 0) ? 'F' : 'X';
+                    slots[3][1] = (days % 3 == 0) ? 'F' : 'X';
+                    slots[4][0] = (days % 5 == 0) ? 'F' : 'X';
+                }
+                else
+                {
+                    slots[1][7] = (days%2 == 0) ? 'F' : 'X';
+                    slots[2][3] = (days%3 == 0) ? 'F' : 'X';
+                    slots[3][1] = (days%5 == 0) ? 'F' : 'X';
+                    slots[4][0] = (days%7 == 0) ? 'F' : 'X';
+                }
                 break;
             }
             case 'G': {
-                slots[3][2] = (days%5==0)?'G':'X';
-                slots[4][1] = (days%7==0)?'G':'X';
+                if(freshie) {
+                    slots[3][2] = (days % 2 == 0) ? 'G' : 'X';
+                    slots[4][1] = (days % 3 == 0) ? 'G' : 'X';
+                }
+                else
+                {
+                    slots[0][4] = (days%2 == 0) ? 'G' : 'X';
+                    slots[2][7] = (days%3 == 0) ? 'G' : 'X';
+                    slots[3][2] = (days%5 == 0) ? 'G' : 'X';
+                    slots[4][1] = (days%7 == 0) ? 'G' : 'X';
+                }
                 break;
             }
             case 'H': {
