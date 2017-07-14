@@ -10,6 +10,8 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.widget.EditText;
 
+import java.util.Calendar;
+
 /**
  * Created by arun on 21-Jul-15.
  */
@@ -86,6 +88,20 @@ public class Utils {
             return false;
         } else {
             return true;
+        }
+    }
+
+    public static boolean isFreshie(Context context)
+    {
+        String roll = Utils.getprefString(UtilStrings.ROLLNO,context);
+        if(roll.length()>4) {
+            int roll_yr = 10 * (roll.charAt(2) - '0') + (roll.charAt(3) - '0');
+            int year = Calendar.getInstance().get(Calendar.YEAR);
+            int month = Calendar.getInstance().get(Calendar.MONTH);
+            return (((year%100)==roll_yr)||(((year%100)-1==roll_yr)&&(month<Calendar.JUNE)))&&((roll.charAt(4)=='B')||(roll.charAt(4)=='b'));
+        }
+        else {
+            return false;
         }
     }
 }

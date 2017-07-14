@@ -8,6 +8,8 @@
     <string name="action_log_out">Log out</string>
     <string name="action_contact">Contact</string>
     <string name="action_about">About</string>
+    <string name="howto">How To Use</string>
+    <string name="edit_courses">Edit Courses</string>
 
 
     <string name="even_year1">Jan-May 2016</string>
@@ -98,6 +100,23 @@
     <string name="search_hint">Name of the place</string>
     <string name="search_title">Search a location</string>
     <string name="bus_route">Show Bus Route</string>
+
+    <string name="instrucions">Guide for using the timetable:\n\n
+        Enter the course details in the first screen. Tick the days on which the class will be held.
+        If you want to remove or edit a course, click on the entry and you will be shown a dialog which lets you edit the details.
+        Freshies need to select the correct shift before entering the course details.
+        Morning shift courses are in slot A1, B1, C1 and so on.
+        While afternoon shift courses are in slot A2, B2, C2 and so on.
+        Note that the afternoon shift courses are depicted by lower case in the timetable
+        while morning shift courses are depicted by upper case.
+        \n\n
+        Guide for using the bunk monitor:\n\n
+        If you click on a slot in the timetable, it will turn red.This indicates a bunk.
+        Clicking on it again will revert its colour and disable the bunk.
+        The bunks in the timetable reset at the end of each week. However, the count is preserved in the Bunk Monitor.
+        Note that when you exceed the maximum number of allowed bunks,
+        \nthe text for that slot will turn red in the bunk monitor.\n\n
+    </string>
 
 
 </resources>

@@ -108,7 +108,6 @@ public class CalendarActivity extends AppCompatActivity
                 // result of the request.
             }
         }
-        Utils.saveprefInt("TT_Screen", 0, this);
 
 
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -167,8 +166,12 @@ public class CalendarActivity extends AppCompatActivity
                         Utils.saveprefLong("CalID", CalID, this);
                     }
 
-                    for (int m = 0; m < 12; m++) {
-                        sendJsonRequest(m);
+                    if (!getVersion().equalsIgnoreCase(Utils.getprefString("Cal_Ver", this))) {
+                        deleteallevents();
+                        for (int m = 0; m < 12; m++) {
+                            sendJsonRequest(m);
+                        }
+                        Utils.saveprefString("Cal_Ver",getVersion(),this);
                     }
 
                 } else {
@@ -187,6 +190,18 @@ public class CalendarActivity extends AppCompatActivity
             // other 'case' lines to check for other
             // permissions this app might request
         }
+    }
+
+    String getVersion() {
+        //TODO: Add code to get calendar version
+        return null;
+    }
+
+    void deleteallevents() {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_CALENDAR) != PackageManager.PERMISSION_GRANTED) {
+            return;
+        }
+        getContentResolver().delete(CalendarContract.Events.CONTENT_URI, CalendarContract.Events._ID + "= *",null);
     }
 
     void sendJsonRequest(final int month) {

@@ -1,5 +1,6 @@
 package in.ac.iitm.students.activities.main;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
@@ -21,6 +22,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
+
+import java.util.Calendar;
 
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
@@ -113,7 +116,7 @@ public class TimetableActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main_menu, menu);
+        getMenuInflater().inflate(R.menu.menu_timetable, menu);
         return true;
     }
 
@@ -132,6 +135,18 @@ public class TimetableActivity extends AppCompatActivity
         } else if (id == R.id.action_log_out) {
             LogOutAlertClass lg = new LogOutAlertClass();
             lg.isSure(TimetableActivity.this);
+            return true;
+        }
+        else if (id==R.id.action_howto)
+        {
+            Dialog dialog = new Dialog(this);
+            dialog.setContentView(R.layout.dialog_instructions_timetable);
+            dialog.show();
+            return true;
+        }
+        else if(id==R.id.action_editcour) {
+            Utils.saveprefInt("TT_Screen",0,this);
+            calendarPagerAdapter.notifyDataSetChanged();
             return true;
         }
 
