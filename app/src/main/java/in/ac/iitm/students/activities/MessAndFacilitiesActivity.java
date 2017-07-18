@@ -3,37 +3,25 @@ package in.ac.iitm.students.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.android.volley.DefaultRetryPolicy;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
 import com.google.firebase.iid.FirebaseInstanceId;
-
-import java.util.HashMap;
-import java.util.Map;
 
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.main.ComplaintBoxActivity;
-import in.ac.iitm.students.others.MySingleton;
 import in.ac.iitm.students.others.UtilStrings;
 import in.ac.iitm.students.others.Utils;
 
 public class MessAndFacilitiesActivity extends AppCompatActivity {
 
     Toolbar toolbar;
-    private Button logout_click;
-    private ActionBarDrawerToggle toggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +45,6 @@ public class MessAndFacilitiesActivity extends AppCompatActivity {
         Log.d("Firebase::", "Id" + firebaseToken);
 
         header_name.setText("Logged in as " + name);
-        sendRegistrationToServer(firebaseToken, name, roll_no);
 
         RelativeLayout complaint_thread = (RelativeLayout) findViewById(R.id.complaint_thread);
         complaint_thread.setOnClickListener(new View.OnClickListener() {
@@ -82,42 +69,6 @@ public class MessAndFacilitiesActivity extends AppCompatActivity {
 
     public void onFacilitiesClick(View v) {
         changeActivity("Facility");
-    }
-
-    public void sendRegistrationToServer(final String refreshedToken, final String name, final String roll_no) {
-        // Instantiate the RequestQueue.
-
-        final String url = getString(R.string.url_register_fcm);
-        // Request a string response from the provided URL.
-        StringRequest stringRequest = new StringRequest(com.android.volley.Request.Method.POST, url,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-//                        Toast.makeText(MessAndFacilitiesActivity.this, response, Toast.LENGTH_LONG).show();
-                    }
-                }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-//                Toast.makeText(MessAndFacilitiesActivity.this, error.toString(), Toast.LENGTH_LONG).show();
-            }
-        }) {
-            @Override
-            protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("token", refreshedToken);
-                params.put("rollno", roll_no);
-                params.put("name", name);
-                return params;
-            }
-        };
-        // Add the request to the RequestQueue.
-        MySingleton.getInstance(this).addToRequestQueue(stringRequest);
-
-        int MY_SOCKET_TIMEOUT_MS = 10000;
-        stringRequest.setRetryPolicy(new DefaultRetryPolicy(
-                MY_SOCKET_TIMEOUT_MS,
-                DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
-                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
     }
 
     @Override

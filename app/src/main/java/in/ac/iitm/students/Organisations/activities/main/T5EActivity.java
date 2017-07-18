@@ -47,6 +47,7 @@ import in.ac.iitm.students.activities.main.ComplaintBoxActivity;
 import in.ac.iitm.students.activities.main.HomeActivity;
 import in.ac.iitm.students.activities.main.ImpContactsActivity;
 import in.ac.iitm.students.activities.main.MapActivity;
+import in.ac.iitm.students.activities.main.OrganisationsActivity;
 import in.ac.iitm.students.activities.main.StudentSearchActivity;
 import in.ac.iitm.students.objects.News;
 import in.ac.iitm.students.others.LogOutAlertClass;
@@ -199,7 +200,7 @@ public class T5EActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            Intent intent = new Intent(T5EActivity.this, ComplaintBoxActivity.class);
+            Intent intent = new Intent(T5EActivity.this, OrganisationsActivity.class);
             startActivity(intent);
         }
     }

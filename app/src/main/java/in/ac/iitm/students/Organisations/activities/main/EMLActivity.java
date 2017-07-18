@@ -328,7 +328,7 @@ public class EMLActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            Intent intent = new Intent(EMLActivity.this, ComplaintBoxActivity.class);
+            Intent intent = new Intent(EMLActivity.this, OrganisationsActivity.class);
             startActivity(intent);
         }
     }
