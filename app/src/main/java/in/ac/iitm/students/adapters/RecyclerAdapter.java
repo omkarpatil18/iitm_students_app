@@ -81,7 +81,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         TextView tv_day, tv_date, tv_desc;
         CardView cardView;
 
-
         ViewHolder(View itemView) {
             super(itemView);
             tv_day = (TextView) itemView.findViewById(R.id.tv_day);

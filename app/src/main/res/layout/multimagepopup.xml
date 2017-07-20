@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:clickable="true"
+    android:background="#99000000"
+    android:id="@+id/rl_multipopup">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/ibt_close"
+        android:id="@+id/lin_popup"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:id="@+id/ibt_backward"
+            android:background="#263238"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            />
+
+        <ImageButton
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_margin="16dp"
+            android:id="@+id/ibt_forward"
+            android:background="#263238"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_arrow_forward_black_24dp"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_popupimage"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/lin_popup"
+        android:background="@drawable/image_border"
+        android:src="@drawable/laugh"/>
+    <ImageButton
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:id="@+id/ibt_close"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="12dp"
+        android:layout_alignRight="@id/lin_popup"
+        android:layout_marginRight="16dp"
+        android:background="#263238"
+        android:src="@drawable/closepopup" />
+
+</RelativeLayout>

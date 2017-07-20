@@ -69,8 +69,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TimeZone;
 
-import in.ac.iitm.students.Organisations.activities.main.EMLActivity;
-import in.ac.iitm.students.Organisations.activities.main.T5EActivity;
+import in.ac.iitm.students.Organisations.activities.main.Organizations;
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
 import in.ac.iitm.students.activities.SubscriptionActivity;
@@ -132,7 +131,6 @@ public class HomeActivity extends AppCompatActivity
 
         Drawable dialog_icon;
         dialog_icon = ContextCompat.getDrawable(activity, R.drawable.app_logo);
-
 
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
         builder.setIcon(dialog_icon);
@@ -799,7 +797,7 @@ public class HomeActivity extends AppCompatActivity
             //intent = new Intent(context, HomeActivity.class);
             //flag = true;
         } else if (id == R.id.nav_organisations) {
-            intent = new Intent(context, OrganisationsActivity.class);
+            intent = new Intent(context, Organizations.class);
             flag = true;
         } else if (id == R.id.nav_search) {
             intent = new Intent(context, StudentSearchActivity.class);
@@ -963,13 +961,13 @@ public class HomeActivity extends AppCompatActivity
                     public void onClick(View view) {
                         switch (topic) {
                             case "eml": {
-                                Intent intent = new Intent(context, EMLActivity.class);
-                                context.startActivity(intent);
+                                //Intent intent = new Intent(context, EMLActivity.class);
+                                //context.startActivity(intent);
                                 break;
                             }
                             case "t5e": {
-                                Intent intent = new Intent(context, T5EActivity.class);
-                                context.startActivity(intent);
+                                //Intent intent = new Intent(context, T5EActivity.class);
+                                //context.startActivity(intent);
                                 break;
                             }
                             default: {

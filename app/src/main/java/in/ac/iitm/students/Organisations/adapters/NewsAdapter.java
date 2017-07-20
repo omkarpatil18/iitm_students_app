@@ -148,10 +148,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
                     .fit()
                     .centerCrop()
                     .into(holder.imageView);
-
         }
-
-
     }
 
     @Override

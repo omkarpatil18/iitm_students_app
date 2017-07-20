@@ -23,5 +23,8 @@
     <color name="amber">#FFC107</color>
     <color name="white">#FFFFFF</color>
 
+    <color name="Imageback">#eceff1</color>
+
+
     <color name="polyline_blue">#D442A5F5</color>
 </resources><!--500,700,A200--><!--800,300--><!--100,900,600-->

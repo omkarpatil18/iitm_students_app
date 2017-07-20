@@ -79,6 +79,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import in.ac.iitm.students.Organisations.activities.main.Organizations;
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
 import in.ac.iitm.students.activities.SubscriptionActivity;
@@ -986,7 +987,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             intent = new Intent(context, HomeActivity.class);
             flag = true;
         } else if (id == R.id.nav_organisations) {
-            intent = new Intent(context, OrganisationsActivity.class);
+            intent = new Intent(context, Organizations.class);
             flag = true;
         } else if (id == R.id.nav_search) {
             intent = new Intent(context, StudentSearchActivity.class);

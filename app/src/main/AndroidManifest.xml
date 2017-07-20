@@ -12,6 +12,8 @@
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
+
+
     <application
         android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
@@ -42,6 +44,17 @@
             android:resource="@color/colorPrimaryDark" />
         <!-- [END fcm_default_icon] -->
 
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+
+        <provider android:authorities="com.facebook.app.FacebookContentProvider1544898062227250"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
+
+
         <activity
             android:name=".activities.SplashActivity"
             android:screenOrientation="portrait"
@@ -56,7 +69,20 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+
         </activity>
+
+        <activity android:name=".Organisations.activities.main.PostActivity"
+            android:theme="@style/AppTheme1"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+
+        <activity android:name=".Organisations.activities.main.Organizations"
+            android:theme="@style/AppTheme1"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+
+        </activity>
+
         <activity
             android:name=".activities.SubscriptionActivity"
             android:label="@string/title_activity_subscriptions"
@@ -86,24 +112,6 @@
             android:label="@string/title_activity_imp_contacts"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.noAnimation" />
-        <activity
-            android:name=".Organisations.activities.main.EMLActivity"
-            android:label="@string/title_activity_eml_long"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar.noAnimation">
-            <intent-filter>
-                <action android:name="in.ac.iitm.students.activities.main.EMLActivity" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Organisations.activities.main.T5EActivity"
-            android:label="@string/title_activity_t5e_long"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar.noAnimation">
-            <intent-filter>
-                <action android:name="in.ac.iitm.students.activities.main.T5EActivity" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".activities.MessAndFacilitiesActivity"
             android:label="@string/title_activity_mess_and_facilities"
@@ -142,16 +150,6 @@
         <activity
             android:name=".activities.main.TimetableActivity"
             android:label="@string/title_activity_timetable"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Organisations.activities.EMLDetailsActivity"
-            android:label="@string/title_activity_emldetails"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Organisations.activities.EMLFeedbackActivity"
-            android:label="@string/title_activity_emlfeedback"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.AboutUsActivity"
@@ -213,12 +211,6 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"
             android:label="General Complaints" />
-
-        <activity
-            android:name=".activities.main.OrganisationsActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="portrait"
-            android:label="Organisations" />
 
 
     </application>
