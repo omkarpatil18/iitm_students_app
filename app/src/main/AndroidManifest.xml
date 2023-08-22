@@ -50,8 +50,9 @@
             android:value="@string/facebook_app_id" />
 
 
-        <provider android:authorities="com.facebook.app.FacebookContentProvider1544898062227250"
+        <provider
             android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1544898062227250"
             android:exported="true"/>
 
 
@@ -72,14 +73,16 @@
 
         </activity>
 
-        <activity android:name=".Organisations.activities.main.PostActivity"
-            android:theme="@style/AppTheme1"
-            android:configChanges="keyboardHidden|orientation|screenSize">
+        <activity
+            android:name=".organisations.activities.main.PostActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme1">
         </activity>
 
-        <activity android:name=".Organisations.activities.main.Organizations"
-            android:theme="@style/AppTheme1"
-            android:configChanges="keyboardHidden|orientation|screenSize">
+        <activity
+            android:name=".organisations.activities.main.Organizations"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme1">
 
         </activity>
 
@@ -143,7 +146,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Organisations.activities.NewsActivity"
+            android:name=".organisations.activities.NewsActivity"
             android:label="@string/title_activity_news"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -191,26 +194,26 @@
         </activity>
         <activity
             android:name=".activities.main.ComplaintBoxActivity"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Complaint Box"
             android:screenOrientation="portrait"
-            android:label="Complaint Box" />
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
             android:name=".activities.main.CalendarActivity"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Calendar"
             android:screenOrientation="portrait"
-            android:label="Calendar" />
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
             android:name=".activities.HostelComplaints"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Hostel Complaints"
             android:screenOrientation="portrait"
-            android:label="Hostel Complaints" />
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.GeneralComplaints"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:label="General Complaints"
             android:screenOrientation="portrait"
-            android:label="General Complaints" />
+            android:theme="@style/AppTheme.NoActionBar" />
 
 
     </application>

@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     tools:context="in.ac.iitm.students.fragments.CourseTimetableFragment">
 
-    <!-- TODO: Update blank fragment layout -->
 
     <ViewFlipper
         android:id="@+id/flipper"

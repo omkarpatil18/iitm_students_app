@@ -69,13 +69,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TimeZone;
 
-import in.ac.iitm.students.Organisations.activities.main.Organizations;
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
 import in.ac.iitm.students.activities.SubscriptionActivity;
 import in.ac.iitm.students.fragments.ForceUpdateDialogFragment;
 import in.ac.iitm.students.fragments.OptionalUpdateDialogFragment;
 import in.ac.iitm.students.objects.Calendar_Event;
+import in.ac.iitm.students.organisations.activities.main.Organizations;
 import in.ac.iitm.students.others.LogOutAlertClass;
 import in.ac.iitm.students.others.MySingleton;
 import in.ac.iitm.students.others.UtilStrings;
@@ -100,7 +100,8 @@ public class HomeActivity extends AppCompatActivity
     private long CalID;
     private String[] months = {"january", "february", "march", "april", "may", "june", "july", "august", "september",
             "october", "november", "december"};
-    private String cal_url = "";//url of api file
+    private String calversion_url = "https://students.iitm.ac.in/studentsapp/calendar/cal_ver.php"; //url of api file
+    private String cal_ver = "1";
 
     public static Context getContext() {
         return mContext;
@@ -326,8 +327,34 @@ public class HomeActivity extends AppCompatActivity
     }
 
     String getVersion() {
-        //TODO: Add code to get calendar version
-        return null;
+
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, calversion_url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+
+                        try {
+                            JSONArray jsArray = new JSONArray(response);
+                            JSONObject jsObject = jsArray.getJSONObject(0);
+                            cal_ver = jsObject.getString("version");
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                //Toast.makeText(getApplicationContext(), error.toString(), Toast.LENGTH_LONG).show();
+                //Snackbar snackbar = Snackbar.make("Internet Connection Failed.", Snackbar.LENGTH_SHORT);
+                //snackbar.show();
+
+            }
+        }) {
+        };
+// Access the RequestQueue through your singleton class.
+        MySingleton.getInstance(this).addToRequestQueue(stringRequest);
+        return cal_ver;
     }
 
     void deleteallevents() {
@@ -498,6 +525,7 @@ public class HomeActivity extends AppCompatActivity
     //*****************************
     //*****************************
     //calendar code ends
+
 
     public void onRefresh() {
         swipeRefreshLayout.setRefreshing(true);

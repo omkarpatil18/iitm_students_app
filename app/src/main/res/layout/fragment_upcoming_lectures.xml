@@ -7,4 +7,4 @@
     android:background="#FFFFFF"
     android:paddingBottom="8dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context=".Organisations.fragments.UpcomingLectures" />
+    tools:context=".organisations.fragments.UpcomingLectures" />

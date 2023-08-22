@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="material-ripple-1.0.2">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/47f5642d22fb677b7437013e7a40b7e04ad7a520/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/47f5642d22fb677b7437013e7a40b7e04ad7a520/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/d2b0806aa374ae53cc6c0fac29c745e8df44c35a/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d2b0806aa374ae53cc6c0fac29c745e8df44c35a/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

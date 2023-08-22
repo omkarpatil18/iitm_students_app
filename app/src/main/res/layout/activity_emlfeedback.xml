@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".Organisations.activities.EMLFeedbackActivity">
+    tools:context=".organisations.activities.EMLFeedbackActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

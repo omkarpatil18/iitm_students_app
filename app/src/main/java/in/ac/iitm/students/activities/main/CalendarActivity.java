@@ -7,7 +7,6 @@ import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
-import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -23,11 +22,10 @@ import com.squareup.picasso.Picasso;
 
 import java.util.Calendar;
 
-import in.ac.iitm.students.Organisations.activities.main.Organizations;
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
 import in.ac.iitm.students.activities.SubscriptionActivity;
-import in.ac.iitm.students.adapters.MonthFmAdapter;
+import in.ac.iitm.students.organisations.activities.main.Organizations;
 import in.ac.iitm.students.others.LogOutAlertClass;
 import in.ac.iitm.students.others.UtilStrings;
 import in.ac.iitm.students.others.Utils;
@@ -58,6 +56,7 @@ public class CalendarActivity extends AppCompatActivity
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        /*
         relativeLayout = (RelativeLayout) findViewById(R.id.activity_main);
         // Set the content of the activity to use the activity_main.xml layout file
         currentMonth = Calendar.getInstance().get(Calendar.MONTH);
@@ -96,6 +95,7 @@ public class CalendarActivity extends AppCompatActivity
         //recyclerAdapter= new RecyclerAdapter();
         //recyclerView.setAdapter(recyclerAdapter);
 
+*/
 
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

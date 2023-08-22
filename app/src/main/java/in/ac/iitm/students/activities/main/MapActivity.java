@@ -79,15 +79,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import in.ac.iitm.students.Organisations.activities.main.Organizations;
 import in.ac.iitm.students.R;
 import in.ac.iitm.students.activities.AboutUsActivity;
 import in.ac.iitm.students.activities.SubscriptionActivity;
+import in.ac.iitm.students.organisations.activities.main.Organizations;
 import in.ac.iitm.students.others.ClusterMarkerLocation;
-import in.ac.iitm.students.others.DataParser;
 import in.ac.iitm.students.others.IITMBusStops;
 import in.ac.iitm.students.others.LogOutAlertClass;
 import in.ac.iitm.students.others.MySingleton;
+import in.ac.iitm.students.others.RouteJSONParser;
 import in.ac.iitm.students.others.UtilStrings;
 import in.ac.iitm.students.others.Utils;
 
@@ -875,7 +875,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
                 try {
                     jObject = new JSONObject(jsonString);
-                    DataParser parser = new DataParser();
+                    RouteJSONParser parser = new RouteJSONParser();
 
                     // Starts parsing data
                     routes = parser.parse(jObject);
@@ -910,7 +910,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
 
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
                 //    ActivityCompat#requestPermissions
                 // here to request the missing permissions, and then overriding
                 //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
